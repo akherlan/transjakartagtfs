@@ -1,7 +1,7 @@
 # transjakarta
 Prepare and visualize Transjakarta dataset using R
 
-What you can find inside?
+What you can find inside? Just continue to point 3 if you have already installed `nusantr` [here](https://github.com/rasyidstat/nusantr)
 
 * `01_get.R` get Transjakarta data
 * `02_halte.R` and `02_route.R` clean and make `transjakarta` and `transjakarta_route` dataset
