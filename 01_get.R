@@ -19,8 +19,17 @@ df_tj <- df_tj %>%
          route_info = map(route_url, fromJSON),
          load_date = Sys.Date())
 
-# save data (latest 25 June 2018)
-saveRDS(df_tj, "tj_detail.rds")
+# save data (7 Nov 2019)
+saveRDS(df_tj, "data/tj_detail.rds")
+
+# try for krl
+df_krl <- df_krl %>%
+  mutate(route_url = map2_chr(gsub(" ", "\\+", scheduleId), "train", route_det),
+         route_info = map(route_url, fromJSON),
+         load_date = Sys.Date())
+
+# save data (7 Nov 2019)
+saveRDS(df_krl, "data/krl_detail.rds")
 
 
 
