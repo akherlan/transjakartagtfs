@@ -25,7 +25,7 @@ ggplot() +
   guides(color = FALSE) +
   scale_color_manual(values = tj_color) +
   labs(caption = "Rasyid Ridha (rasyidridha.com)
-       source: trafi.com\ndate: 7 November 2018")
+       source: trafi.com\ndate: 7 November 2019")
   # theme(panel.background = element_rect(fill = bg_color, color = bg_color),
   #       plot.background = element_rect(fill = bg_color, color = bg_color),
   #       strip.background = element_rect(fill = bg_color, color = bg_color),
