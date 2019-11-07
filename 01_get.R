@@ -6,7 +6,6 @@ main_url <- "https://www.trafi.com/api/schedules/jakarta/"
 route <- paste0(main_url, "all?transportType=")
 
 df_tj <- fromJSON(paste0(route, "transjakarta"))[[1]] %>% unnest()
-df_krl <- fromJSON(paste0(route, "train"))[[1]] %>% unnest()
 
 # get details for each route
 route_det <- function(schedule_id, transport) {
@@ -21,15 +20,6 @@ df_tj <- df_tj %>%
 
 # save data (7 Nov 2019)
 saveRDS(df_tj, "data/tj_detail.rds")
-
-# try for krl
-df_krl <- df_krl %>%
-  mutate(route_url = map2_chr(gsub(" ", "\\+", scheduleId), "train", route_det),
-         route_info = map(route_url, fromJSON),
-         load_date = Sys.Date())
-
-# save data (7 Nov 2019)
-saveRDS(df_krl, "data/krl_detail.rds")
 
 
 

@@ -1,15 +1,15 @@
-library(nusantr) # version 0.3.3 get tj route
 library(tidyverse)
 library(sf)
 library(mrsq)
+library(googleway)
 
 # get route
-tj <- transjakarta_route %>%
+tj <- read_rds("data/tj_route.rds") %>%
   filter(direction == 1,
          is_main == TRUE)
 
 # get halte (convert to sf class)
-tjh <- transjakarta %>%
+tjh <- read_rds("data/tj_halte.rds") %>%
   st_as_sf(coords = c("longitude", "latitude"), crs = 4326)
 
 # color palette
@@ -25,12 +25,12 @@ ggplot() +
   guides(color = FALSE) +
   scale_color_manual(values = tj_color) +
   labs(caption = "Rasyid Ridha (rasyidridha.com)
-       source: trafi.com\ndate: 25 June 2018") +
-  theme(panel.background = element_rect(fill = bg_color, color = bg_color),
-        plot.background = element_rect(fill = bg_color, color = bg_color),
-        strip.background = element_rect(fill = bg_color, color = bg_color),
-        plot.caption = element_text(color = "white"))
-ggsave("tj_route.png", width = 8, height = 6, bg = "transparent")
+       source: trafi.com\ndate: 7 November 2018")
+  # theme(panel.background = element_rect(fill = bg_color, color = bg_color),
+  #       plot.background = element_rect(fill = bg_color, color = bg_color),
+  #       strip.background = element_rect(fill = bg_color, color = bg_color),
+  #       plot.caption = element_text(color = "white"))
+ggsave("figs/tj_route_20191107.png", width = 8, height = 6, bg = "transparent")
 
 # EDA
 # longest / shortest route
@@ -59,7 +59,7 @@ tj_top10 %>%
             family = "Neo Sans Pro",
             hjust = 1.2) +
   theme(axis.text.x = element_blank())
-ggsave("tj_top10.png", width = 10, height = 4, bg = "transparent", dpi = 150)
+ggsave("figs/tj_top10.png", width = 10, height = 4, bg = "transparent", dpi = 150)
 
 ggplot() +
   geom_sf(data = tj, color = "grey95") +
@@ -68,7 +68,7 @@ ggplot() +
   theme_nunito() +
   guides(color = FALSE) +
   scale_color_manual(values = tj_color)
-ggsave("tj_route_top10.png", width = 8, height = 6, bg = "transparent", dpi = 200)
+ggsave("figs/tj_route_top10.png", width = 8, height = 6, bg = "transparent", dpi = 200)
 
 # viz bottom
 tj_color <- paste0("#", tj_bottom10$corridor_color)
@@ -87,7 +87,7 @@ tj_bottom10 %>%
             family = "Neo Sans Pro",
             hjust = 1.2) +
   theme(axis.text.x = element_blank())
-ggsave("tj_bottom10.png", width = 10, height = 4, bg = "transparent", dpi = 150)
+ggsave("figs/tj_bottom10.png", width = 10, height = 4, bg = "transparent", dpi = 150)
 
 ggplot() +
   geom_sf(data = tj, color = "grey95") +
@@ -96,6 +96,6 @@ ggplot() +
   theme_nunito() +
   guides(color = FALSE) +
   scale_color_manual(values = tj_color)
-ggsave("tj_route_bottom10.png", width = 8, height = 6, bg = "transparent", dpi = 200)
+ggsave("figs/tj_route_bottom10.png", width = 8, height = 6, bg = "transparent", dpi = 200)
 
 

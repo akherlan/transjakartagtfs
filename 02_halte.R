@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # read data
-df_tj <- readRDS("tj_detail.rds")
+df_tj <- readRDS("data/tj_detail.rds")
 
 # checking
 df_tj %>%
@@ -20,7 +20,7 @@ map(df_tj$route_info, "tracks")
 
 # create halte data
 df_tj <- df_tj %>%
-  as.tibble() %>%
+  as_tibble() %>%
   mutate(halte_detail = map(df_tj$route_info, "stops"))
 
 df_halte <- df_tj %>%
@@ -46,8 +46,7 @@ df_halte_final <- df_halte %>%
 transjakarta <- df_halte_final %>%
   select(everything(), schedule_id, corridor_cnt = route_cnt)
 
-# save halte data to nusantr
-devtools::use_data(transjakarta,
-                   pkg = "data",
-                   internal = FALSE,
-                   overwrite = TRUE)
+# save data
+saveRDS(transjakarta, "data/tj_halte.rds")
+
+

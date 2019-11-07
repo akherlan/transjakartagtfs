@@ -4,7 +4,7 @@ library(sf)
 library(stringr)
 
 # read data
-df_tj <- readRDS("tj_detail.rds")
+df_tj <- readRDS("data/tj_detail.rds")
 
 # transform data
 df_tj <- df_tj %>%
@@ -42,7 +42,7 @@ df_route <- df_route %>%
 # form geometry
 df_route <- df_route %>%
   st_as_sf(coords = c("lon", "lat")) %>%
-  group_by_at(vars(-geometry)) %>%
+  group_by_at(vars(-geometry, -stops)) %>%
   summarise(do_union = FALSE) %>%
   st_cast("LINESTRING")
 
@@ -91,11 +91,11 @@ transjakarta_route <- transjakarta_route %>%
 ua <- filter(transjakarta_route, is_main == TRUE | is_main_reverse == TRUE)$corridor_id %>%
   unique()
 ua_neg <- setdiff(unique(transjakarta_route$corridor_id), ua)
-n_distinct(transjakarta_route$corridor_id) - n_distinct(ua) # 7 corridor id do not have main
+n_distinct(transjakarta_route$corridor_id) - n_distinct(ua) # 9 corridor id do not have main
 transjakarta_route %>%
   filter(corridor_id %in% ua_neg, is_hidden == FALSE) %>%
   .$corridor_id %>%
-  n_distinct() # still 7 use is_hidden argument
+  n_distinct() # still 9 use is_hidden argument
 
 transjakarta_route <- transjakarta_route %>%
   mutate(is_main = ifelse(corridor_id %in% ua_neg &
@@ -107,11 +107,8 @@ transjakarta_route <- transjakarta_route %>%
   select(-n, -is_hidden)
 
 
-# save route data to nusantr
-devtools::use_data(transjakarta_route,
-                   pkg = "data",
-                   internal = FALSE,
-                   overwrite = TRUE)
+# save data
+saveRDS(transjakarta_route, "data/tj_route.rds")
 
 # others exploration
 transjakarta_route %>%
