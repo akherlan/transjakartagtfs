@@ -6,6 +6,7 @@ Prepare and visualize Transjakarta dataset using R
 * `02_halte.R` create clean Transjakarta halte dataset from Transjakarta route data
 * `02_route.R` create clean Transjakarta route dataset from Transjakarta route data
 * `03_viz.R` visualize Transjakarta dataset
+* `playground_realtime.R` play around with real-time data (need to run `01_get_realtime.R` first)
 
 Post: [Visualize Transjakarta Route](http://rasyidridha.com/datakepo/rute-transjakarta/)
 
