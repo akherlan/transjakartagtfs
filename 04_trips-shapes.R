@@ -11,8 +11,8 @@ tj <- readRDS("data/tj_detail.rds")
 
 # trips -----
 
-# route_id, trip_id, trip_headsign, trip_short_name,
-# direction_id, shape_id, service_id
+# route_id, service_id, trip_id, trip_headsign, trip_short_name,
+# direction_id, shape_id
 
 trips <- tj %>%
   mutate(trip = map(tj$route_info, "tracks")) %>%
@@ -27,6 +27,8 @@ trips <- tj %>%
          "trip_headsign" = "name",
          "direction_id" = "direction") %>%
   select(route_id, trip_id, trip_headsign, direction_id, shape_id, shape)
+
+# add service_id based on schedule from moovit
 
 # shapes -----
 

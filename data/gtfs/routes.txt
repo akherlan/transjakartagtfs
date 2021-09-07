@@ -1,156 +1,156 @@
-"route_id","agency_id","route_short_name","route_long_name","route_color"
-"1","brt","1","Blok M - Kota","D02027"
-"1A","brt","1A","PIK - Balai Kota","93C3A4"
-"1B","brt","1B","Stasiun Palmerah - Tosari","2AA8A4"
-"1C","brt","1C","Blok M - Pesanggrahan - Bintaro","59A9C1"
-"1E","brt","1E","Pondok Labu - Blok M","C50003"
-"1F","brt","1F","Stasiun Palmerah - Bundaran Senayan","FF7465"
-"1H","brt","1H","Stasiun Tanah Abang - Stasiun Gondangdia","E15F80"
-"1M","brt","1M","Meruya - Blok M","D6375F"
-"1N","brt","1N","Tanah Abang - Blok M","D81748"
-"1P","brt","1P","Senen - Bundaran Senayan","FF0040"
-"S23","brt","1Q","Blok M - Rempoa","FF9411"
-"1R","brt","1R","Senen - Stasiun Tanah Abang","FC8DA9"
-"2","brt","2","Pulo Gadung - Harmoni","264798"
-"2F","brt","2F","Rusun Cakung Barat (Albo) - Pulo Gadung","8D8482"
-"TR1","brt","2P","Gondangdia - Senen","072091"
-"TR2","brt","2Q","Gondangdia - Balai Kota","1209CF"
-"3","brt","3","Kalideres - Pasar Baru","EDB900"
-"3A","brt","3A","Rusun Pesakih - Kalideres","8D8482"
-"3E","brt","3E","Sentraland Cengkareng - Puri Kembangan","DBAA06"
-"3F","brt","3F","Kalideres - Gelora Bung Karno","B39233"
-"4","brt","4","Pulo Gadung - Tosari","5D2E64"
-"4B","brt","4B","Stasiun Manggarai - Universitas Indonesia","CD5FA5"
-"4C","brt","4C","Bundaran Senayan - TU GAS","AD75B2"
-"4D","brt","4D","Pulo Gadung - Patra Kuningan","5D2E64"
-"brt_4F","brt","4F","Pulo Gadung - Pinang Ranti","B900E2"
-"5","brt","5","Ancol - Kampung Melayu","C85F1B"
-"5B","brt","5B","Stasiun Tebet - Bidara Cina","905C3A"
-"5C","brt","5C","PGC - Harmoni","73CCD5"
-"5D","brt","5D","PGC - Ancol","F2911F"
-"5F","brt","5F","Kampung Melayu - Tanah Abang","FF9E58"
-"5M","brt","5M","Kampung Melayu - Cikini - Tanah Abang","FF5400"
-"6","brt","6","Ragunan - Halimun","31A542"
-"6A","brt","6A","Ragunan - Kuningan - Monas","98C274"
-"6B","brt","6B","Ragunan - Semanggi - Monas","74C289"
-"6C","brt","6C","Stasiun Tebet - Patra Kuningan - Karet","647950"
-"6D","brt","6D","Stasiun Tebet - Underpass - Karet","819967"
-"6H","brt","6H","Lebak Bulus - Senen","75358D"
-"6M","brt","6M","Stasiun Manggarai - Blok M","7A3569"
-"6N","brt","6N","Ragunan - Blok M","61B646"
-"6R","brt","6R","Ragunan - Stasiun MRT Fatmawati","5BFC32"
-"7","brt","7","Kampung Rambutan - Kampung Melayu","EC2661"
-"7A","brt","7A","Lebak Bulus - Kampung Rambutan","F498B9"
-"7B","brt","7B","Kampung Rambutan - Blok M","BB5227"
-"7C","brt","7C","Cibubur - BKN","669043"
-"7D","brt","7D","TMII - Cawang Cikoko","3F9593"
-"7P","brt","7P","Pondok Kelapa - BKN","911D3C"
-"8","brt","8","Lebak Bulus - Harmoni","DA259A"
-"8A","brt","8A","Harmoni - Grogol","972A70"
-"8D","brt","8D","Blok M - Joglo","378F94"
-"8E","brt","8E","Blok M - Bintaro","F498B9"
-"8K","brt","8K","Tanah Abang - Batusari","378F94"
-"9","brt","9","Pinang Ranti - Pluit","449F98"
-"9D","brt","9D","Pasar Minggu - Tanah Abang","37C021"
-"9E","brt","9E","Kebayoran Lama - Jelambar","5D9DA8"
-"9H","brt","9H","Cipedak - Blok M","84D0D4"
-"10","brt","10","Tanjung Priok - PGC","8F1A1E"
-"10A","brt","10A","Rusun Marunda - Tanjung Priok","8D8482"
-"10B","brt","10B","Rusun Cipinang Besar Selatan - Penas Kalimalang","8D8482"
-"10D","brt","10D","Tanjung Priok - Kampung Rambutan","9B3337"
-"10K","brt","10K","Tanjung Priok - Senen","8B4344"
-"11","brt","11","Kampung Melayu - Pulo Gebang","2F4FA2"
-"11B","brt","11B","Rusun Rawa Bebek - Penggilingan","8D8482"
-"11C","brt","11C","Rusun Pinus Elok - Rusun Pulo Gebang","8D8482"
-"11D","brt","11D","Pulo Gadung - Pulo Gebang","6E7FAE"
-"11J","brt","11K","Rusun Komarudin - Penggilingan","8D8482"
-"11K","brt","11M","Rusun Rawa Bebek - Bukit Duri","8D8482"
-"11Q","brt","11Q","Pulo Gebang - BKT - Kampung Melayu","10C0FF"
-"12","brt","12","Penjaringan - Sunter Kelapa Gading","62BD73"
-"12B","brt","12B","Pluit - Senen","598E64"
-"12F","brt","12F","Rusun Marunda - Rusun Waduk Pluit","8D8482"
-"brt_13","brt","13","Tendean - CBD Ciledug","5C359D"
-"brt_13A","brt","13A","Blok M - Puri Beta","5C348D"
-"brt_13C","brt","13C","Tosari - Puri Beta","69338B"
-"brt_13D","brt","13D","Ragunan - Puri Beta","8C5D91"
-"brt_13E","brt","13E","Kuningan - Puri Beta","761C86"
-"GR4","tj-freebus","GR4","Taman Kota Intan - Museum Bahari","2B8F3F"
-"GR5","tj-freebus","GR5","Kota Tua Explorer","1F692E"
-"JAK-1","tj-jaklingko","JAK.01","Tanjung Priok - Plumpang","00B0EC"
-"OK-2","tj-jaklingko","JAK.02","Kampung Melayu - Duren Sawit","00B0EC"
-"OK-3","tj-jaklingko","JAK.03","Pondok Labu - Lebak Bulus","00B0EC"
-"OK-4","tj-jaklingko","JAK.04","Grogol - Tubagus Angke","00B0EC"
-"OK-5","tj-jaklingko","JAK.05","Semper - Rorotan","00B0EC"
-"OK-6","tj-jaklingko","JAK.06","Kampung Rambutan - Pondok Gede","00B0EC"
-"JAK-7","tj-jaklingko","JAK.07","Tanah Abang - Grogol","00B0EC"
-"JAK-8","tj-jaklingko","JAK.08","Roxy - Bendungan Hilir","00B0EC"
-"JAK.09","tj-jaklingko","JAK.09","Roxy Mas - Karet","00B0EC"
-"JAK-10","tj-jaklingko","JAK.10","Tanah Abang - Kota","00B0EC"
-"JAK.10A","tj-jaklingko","JAK.10A","Gondangdia - Salemba - Cikini","00B0EC"
-"JAK.10B","tj-jaklingko","JAK.10B","Gondangdia - Kramat - Cikini","00B0EC"
-"JAK-11","tj-jaklingko","JAK.11","Tanah Abang - Kebayoran Lama","00B0EC"
-"JAK.112","tj-jaklingko","JAK.112","Pulo Gadung - Tanah Merah","00B0EC"
-"JAK.117","tj-jaklingko","JAK.117","Terminal Tanjung Priok - Terminal Tanah Merdeka","00B0EC"
-"JAK-12","tj-jaklingko","JAK.12","Tanah Abang - Pos Pengumben - Kebayoran Lama","00B0EC"
-"JAK.13","tj-jaklingko","JAK.13","Tanah Abang - Kota Intan","00B0EC"
-"JAK-14","tj-jaklingko","JAK.14","Tanah Abang - Meruya","00B0EC"
-"OK-15","tj-jaklingko","JAK.15","Tanjung Priok - Bulak Turi","00B0EC"
-"OK-16","tj-jaklingko","JAK.16","Cililitan - Condet","00B0EC"
-"OK-17","tj-jaklingko","JAK.17","Pulo Gadung - Senen","00B0EC"
-"OK-18","tj-jaklingko","JAK.18","Stasiun Duren Kalibata - Kuningan","00B0EC"
-"OK-19","tj-jaklingko","JAK.19","Pinang Ranti - Setu","00B0EC"
-"OK-20","tj-jaklingko","JAK.20","Lubang Buaya - Cawang UKI","00B0EC"
-"OK-21","tj-jaklingko","JAK.21","PGC - Dwikora","00B0EC"
-"OK-22","tj-jaklingko","JAK.22","Penas Kalimalang - Dwikora","00B0EC"
-"JAK-24","tj-jaklingko","JAK.24","Senen - Kelapa Gading - Pulo Gadung","00B0EC"
-"OK-25","tj-jaklingko","JAK.25","Kalisari - Pasar Rebo","00B0EC"
-"OK-26","tj-jaklingko","JAK.26","Duren Sawit - Rawamangun","00B0EC"
-"OK-27","tj-jaklingko","JAK.27","Rorotan - Pulo Gebang","00B0EC"
-"OK-28","tj-jaklingko","JAK.28","Pasar Rebo - Taman Wiladatika","00B0EC"
-"OK-29","tj-jaklingko","JAK.29","Tanjung Priok - Rusun Sukapura","00B0EC"
-"OK-30","tj-jaklingko","JAK.30","Grogol - Meruya","00B0EC"
-"OK-31","tj-jaklingko","JAK.31","Pondok Labu - Blok M","00B0EC"
-"OK-32","tj-jaklingko","JAK.32","Petukangan - Lebak Bulus","00B0EC"
-"OK-33","tj-jaklingko","JAK.33","Pulo Gadung - Kota","00B0EC"
-"JAK-34","tj-jaklingko","JAK.34","Rawamangun - Klender","00B0EC"
-"JAK.35","tj-jaklingko","JAK.35","Rawamangun - Pangkalan Jati","00B0EC"
-"JAK-36","tj-jaklingko","JAK.36","Cilangkap - Cililitan","00B0EC"
-"JAK-37","tj-jaklingko","JAK.37","Cililitan - Condet","00B0EC"
-"JAK-38","tj-jaklingko","JAK.38","Bulak Ringin - Kampung Rambutan","00B0EC"
-"JAK-39","tj-jaklingko","JAK.39","Duren Sawit - Kalimalang","00B0EC"
-"JAK-40","tj-jaklingko","JAK.40","Pulogebang - Taman Harapan Baru","00B0EC"
-"JAK.41","tj-jaklingko","JAK.41","Kampung Melayu - Pulo Gadung","00B0EC"
-"JAK.42","tj-jaklingko","JAK.42","Kampung Melayu - Pondok Kelapa","00B0EC"
-"JAK.43","tj-jaklingko","JAK.43","Tongtek - Cililitan","00B0EC"
-"JAK-44","tj-jaklingko","JAK.44","Andara - Lenteng Agung","00B0EC"
-"JAK-45","tj-jaklingko","JAK.45","Ragunan - Lebak Bulus","00B0EC"
-"JAK.46","tj-jaklingko","JAK.46","Pasar Minggu - Jagakarsa","00B0EC"
-"JAK-47","tj-jaklingko","JAK.47","Terminal Pasar Minggu - Ciganjur","00B0EC"
-"JAK.49","tj-jaklingko","JAK.49","Lebak Bulus - Cipulir","00B0EC"
-"JAK-50","tj-jaklingko","JAK.50","Kalideres - Puri Kembangan","00B0EC"
-"JAK-51","tj-jaklingko","JAK.51","Taman Kota - Budi Luhur","00B0EC"
-"JAK.52","tj-jaklingko","JAK.52","Kalideres - Muara Angke","00B0EC"
-"JAK.53","tj-jaklingko","JAK.53","Grogol - Pos Pengumben","00B0EC"
-"JAK.54","tj-jaklingko","JAK.54","Grogol - Benhil","00B0EC"
-"JAK-56","tj-jaklingko","JAK.56","Grogol - Srengseng","00B0EC"
-"JAK-58","tj-jaklingko","JAK.58","Cilincing - Rorotan","00B0EC"
-"JAK-59","tj-jaklingko","JAK.59","Rawamangun - Rawa Sengon","00B0EC"
-"JAK-60","tj-jaklingko","JAK.60","Kelapa Gading - Sunter Kemayoran","00B0EC"
-"JAK-61","tj-jaklingko","JAK.61","Pulo Gadung - Cempaka Putih","00B0EC"
-"JAK-64","tj-jaklingko","JAK.64","Lenteng Agung - Aselih","00B0EC"
-"JAK.71","tj-jaklingko","JAK.71","Kampung Rambutan - Pinang Ranti","00B0EC"
-"JAK-72","tj-jaklingko","JAK.72","Kampung Rambutan - Pasar Rebo","00B0EC"
-"JAK.73","tj-jaklingko","JAK.73","Jambore Cibubur - Pasar Rebo","00B0EC"
-"JAK.74","tj-jaklingko","JAK.74","Terminal Rawamangun - Cipinang Muara","00B0EC"
-"JAK-75","tj-jaklingko","JAK.75","Kampung Pulo - Halim","00B0EC"
-"JAK-77","tj-jaklingko","JAK.77","Tanjung Priok - Jembatan Hitam","00B0EC"
-"JAK.80","tj-jaklingko","JAK.80","Rawa Buaya - Rawa Kompeni","00B0EC"
-"JAK.84","tj-jaklingko","JAK.84","Kampung Melayu - Kapin Raya","00B0EC"
-"JAK.85","tj-jaklingko","JAK.85","Bintara - Cipinang Indah","00B0EC"
-"JAK-88","tj-jaklingko","JAK.88","Tanjung Priok - Ancol Barat","00B0EC"
-"1K","tj-royaltrans","1K","Cibubur - Blok M","FF4271"
-"6P_royaltrans","tj-royaltrans","6P","Cibubur - Kuningan","BFFFAF"
-"B13","tj-royaltrans","B13","Summarecon Bekasi - Blok M","FF873D"
-"B14","tj-royaltrans","B14","Summarecon Bekasi - Kuningan","D14274"
-"S12_royaltrans","tj-royaltrans","S12","BSD Serpong - Stasiun MRT Fatmawati","46B5D4"
-"S31","tj-royaltrans","S31","Bintaro - Stasiun MRT Fatmawati","D6BF60"
+"route_id","agency_id","route_short_name","route_long_name","route_color","route_type"
+"1","brt","1","Blok M - Kota","D02027",3
+"1A","brt","1A","PIK - Balai Kota","93C3A4",3
+"1B","brt","1B","Stasiun Palmerah - Tosari","2AA8A4",3
+"1C","brt","1C","Blok M - Pesanggrahan - Bintaro","59A9C1",3
+"1E","brt","1E","Pondok Labu - Blok M","C50003",3
+"1F","brt","1F","Stasiun Palmerah - Bundaran Senayan","FF7465",3
+"1H","brt","1H","Stasiun Tanah Abang - Stasiun Gondangdia","E15F80",3
+"1M","brt","1M","Meruya - Blok M","D6375F",3
+"1N","brt","1N","Tanah Abang - Blok M","D81748",3
+"1P","brt","1P","Senen - Bundaran Senayan","FF0040",3
+"S23","brt","1Q","Blok M - Rempoa","FF9411",3
+"1R","brt","1R","Senen - Stasiun Tanah Abang","FC8DA9",3
+"2","brt","2","Pulo Gadung - Harmoni","264798",3
+"2F","brt","2F","Rusun Cakung Barat (Albo) - Pulo Gadung","8D8482",3
+"TR1","brt","2P","Gondangdia - Senen","072091",3
+"TR2","brt","2Q","Gondangdia - Balai Kota","1209CF",3
+"3","brt","3","Kalideres - Pasar Baru","EDB900",3
+"3A","brt","3A","Rusun Pesakih - Kalideres","8D8482",3
+"3E","brt","3E","Sentraland Cengkareng - Puri Kembangan","DBAA06",3
+"3F","brt","3F","Kalideres - Gelora Bung Karno","B39233",3
+"4","brt","4","Pulo Gadung - Tosari","5D2E64",3
+"4B","brt","4B","Stasiun Manggarai - Universitas Indonesia","CD5FA5",3
+"4C","brt","4C","Bundaran Senayan - TU GAS","AD75B2",3
+"4D","brt","4D","Pulo Gadung - Patra Kuningan","5D2E64",3
+"brt_4F","brt","4F","Pulo Gadung - Pinang Ranti","B900E2",3
+"5","brt","5","Ancol - Kampung Melayu","C85F1B",3
+"5B","brt","5B","Stasiun Tebet - Bidara Cina","905C3A",3
+"5C","brt","5C","PGC - Harmoni","73CCD5",3
+"5D","brt","5D","PGC - Ancol","F2911F",3
+"5F","brt","5F","Kampung Melayu - Tanah Abang","FF9E58",3
+"5M","brt","5M","Kampung Melayu - Cikini - Tanah Abang","FF5400",3
+"6","brt","6","Ragunan - Halimun","31A542",3
+"6A","brt","6A","Ragunan - Kuningan - Monas","98C274",3
+"6B","brt","6B","Ragunan - Semanggi - Monas","74C289",3
+"6C","brt","6C","Stasiun Tebet - Patra Kuningan - Karet","647950",3
+"6D","brt","6D","Stasiun Tebet - Underpass - Karet","819967",3
+"6H","brt","6H","Lebak Bulus - Senen","75358D",3
+"6M","brt","6M","Stasiun Manggarai - Blok M","7A3569",3
+"6N","brt","6N","Ragunan - Blok M","61B646",3
+"6R","brt","6R","Ragunan - Stasiun MRT Fatmawati","5BFC32",3
+"7","brt","7","Kampung Rambutan - Kampung Melayu","EC2661",3
+"7A","brt","7A","Lebak Bulus - Kampung Rambutan","F498B9",3
+"7B","brt","7B","Kampung Rambutan - Blok M","BB5227",3
+"7C","brt","7C","Cibubur - BKN","669043",3
+"7D","brt","7D","TMII - Cawang Cikoko","3F9593",3
+"7P","brt","7P","Pondok Kelapa - BKN","911D3C",3
+"8","brt","8","Lebak Bulus - Harmoni","DA259A",3
+"8A","brt","8A","Harmoni - Grogol","972A70",3
+"8D","brt","8D","Blok M - Joglo","378F94",3
+"8E","brt","8E","Blok M - Bintaro","F498B9",3
+"8K","brt","8K","Tanah Abang - Batusari","378F94",3
+"9","brt","9","Pinang Ranti - Pluit","449F98",3
+"9D","brt","9D","Pasar Minggu - Tanah Abang","37C021",3
+"9E","brt","9E","Kebayoran Lama - Jelambar","5D9DA8",3
+"9H","brt","9H","Cipedak - Blok M","84D0D4",3
+"10","brt","10","Tanjung Priok - PGC","8F1A1E",3
+"10A","brt","10A","Rusun Marunda - Tanjung Priok","8D8482",3
+"10B","brt","10B","Rusun Cipinang Besar Selatan - Penas Kalimalang","8D8482",3
+"10D","brt","10D","Tanjung Priok - Kampung Rambutan","9B3337",3
+"10K","brt","10K","Tanjung Priok - Senen","8B4344",3
+"11","brt","11","Kampung Melayu - Pulo Gebang","2F4FA2",3
+"11B","brt","11B","Rusun Rawa Bebek - Penggilingan","8D8482",3
+"11C","brt","11C","Rusun Pinus Elok - Rusun Pulo Gebang","8D8482",3
+"11D","brt","11D","Pulo Gadung - Pulo Gebang","6E7FAE",3
+"11J","brt","11K","Rusun Komarudin - Penggilingan","8D8482",3
+"11K","brt","11M","Rusun Rawa Bebek - Bukit Duri","8D8482",3
+"11Q","brt","11Q","Pulo Gebang - BKT - Kampung Melayu","10C0FF",3
+"12","brt","12","Penjaringan - Sunter Kelapa Gading","62BD73",3
+"12B","brt","12B","Pluit - Senen","598E64",3
+"12F","brt","12F","Rusun Marunda - Rusun Waduk Pluit","8D8482",3
+"brt_13","brt","13","Tendean - CBD Ciledug","5C359D",3
+"brt_13A","brt","13A","Blok M - Puri Beta","5C348D",3
+"brt_13C","brt","13C","Tosari - Puri Beta","69338B",3
+"brt_13D","brt","13D","Ragunan - Puri Beta","8C5D91",3
+"brt_13E","brt","13E","Kuningan - Puri Beta","761C86",3
+"GR4","tj-freebus","GR4","Taman Kota Intan - Museum Bahari","2B8F3F",3
+"GR5","tj-freebus","GR5","Kota Tua Explorer","1F692E",3
+"JAK-1","tj-jaklingko","JAK.01","Tanjung Priok - Plumpang","00B0EC",3
+"OK-2","tj-jaklingko","JAK.02","Kampung Melayu - Duren Sawit","00B0EC",3
+"OK-3","tj-jaklingko","JAK.03","Pondok Labu - Lebak Bulus","00B0EC",3
+"OK-4","tj-jaklingko","JAK.04","Grogol - Tubagus Angke","00B0EC",3
+"OK-5","tj-jaklingko","JAK.05","Semper - Rorotan","00B0EC",3
+"OK-6","tj-jaklingko","JAK.06","Kampung Rambutan - Pondok Gede","00B0EC",3
+"JAK-7","tj-jaklingko","JAK.07","Tanah Abang - Grogol","00B0EC",3
+"JAK-8","tj-jaklingko","JAK.08","Roxy - Bendungan Hilir","00B0EC",3
+"JAK.09","tj-jaklingko","JAK.09","Roxy Mas - Karet","00B0EC",3
+"JAK-10","tj-jaklingko","JAK.10","Tanah Abang - Kota","00B0EC",3
+"JAK.10A","tj-jaklingko","JAK.10A","Gondangdia - Salemba - Cikini","00B0EC",3
+"JAK.10B","tj-jaklingko","JAK.10B","Gondangdia - Kramat - Cikini","00B0EC",3
+"JAK-11","tj-jaklingko","JAK.11","Tanah Abang - Kebayoran Lama","00B0EC",3
+"JAK.112","tj-jaklingko","JAK.112","Pulo Gadung - Tanah Merah","00B0EC",3
+"JAK.117","tj-jaklingko","JAK.117","Terminal Tanjung Priok - Terminal Tanah Merdeka","00B0EC",3
+"JAK-12","tj-jaklingko","JAK.12","Tanah Abang - Pos Pengumben - Kebayoran Lama","00B0EC",3
+"JAK.13","tj-jaklingko","JAK.13","Tanah Abang - Kota Intan","00B0EC",3
+"JAK-14","tj-jaklingko","JAK.14","Tanah Abang - Meruya","00B0EC",3
+"OK-15","tj-jaklingko","JAK.15","Tanjung Priok - Bulak Turi","00B0EC",3
+"OK-16","tj-jaklingko","JAK.16","Cililitan - Condet","00B0EC",3
+"OK-17","tj-jaklingko","JAK.17","Pulo Gadung - Senen","00B0EC",3
+"OK-18","tj-jaklingko","JAK.18","Stasiun Duren Kalibata - Kuningan","00B0EC",3
+"OK-19","tj-jaklingko","JAK.19","Pinang Ranti - Setu","00B0EC",3
+"OK-20","tj-jaklingko","JAK.20","Lubang Buaya - Cawang UKI","00B0EC",3
+"OK-21","tj-jaklingko","JAK.21","PGC - Dwikora","00B0EC",3
+"OK-22","tj-jaklingko","JAK.22","Penas Kalimalang - Dwikora","00B0EC",3
+"JAK-24","tj-jaklingko","JAK.24","Senen - Kelapa Gading - Pulo Gadung","00B0EC",3
+"OK-25","tj-jaklingko","JAK.25","Kalisari - Pasar Rebo","00B0EC",3
+"OK-26","tj-jaklingko","JAK.26","Duren Sawit - Rawamangun","00B0EC",3
+"OK-27","tj-jaklingko","JAK.27","Rorotan - Pulo Gebang","00B0EC",3
+"OK-28","tj-jaklingko","JAK.28","Pasar Rebo - Taman Wiladatika","00B0EC",3
+"OK-29","tj-jaklingko","JAK.29","Tanjung Priok - Rusun Sukapura","00B0EC",3
+"OK-30","tj-jaklingko","JAK.30","Grogol - Meruya","00B0EC",3
+"OK-31","tj-jaklingko","JAK.31","Pondok Labu - Blok M","00B0EC",3
+"OK-32","tj-jaklingko","JAK.32","Petukangan - Lebak Bulus","00B0EC",3
+"OK-33","tj-jaklingko","JAK.33","Pulo Gadung - Kota","00B0EC",3
+"JAK-34","tj-jaklingko","JAK.34","Rawamangun - Klender","00B0EC",3
+"JAK.35","tj-jaklingko","JAK.35","Rawamangun - Pangkalan Jati","00B0EC",3
+"JAK-36","tj-jaklingko","JAK.36","Cilangkap - Cililitan","00B0EC",3
+"JAK-37","tj-jaklingko","JAK.37","Cililitan - Condet","00B0EC",3
+"JAK-38","tj-jaklingko","JAK.38","Bulak Ringin - Kampung Rambutan","00B0EC",3
+"JAK-39","tj-jaklingko","JAK.39","Duren Sawit - Kalimalang","00B0EC",3
+"JAK-40","tj-jaklingko","JAK.40","Pulogebang - Taman Harapan Baru","00B0EC",3
+"JAK.41","tj-jaklingko","JAK.41","Kampung Melayu - Pulo Gadung","00B0EC",3
+"JAK.42","tj-jaklingko","JAK.42","Kampung Melayu - Pondok Kelapa","00B0EC",3
+"JAK.43","tj-jaklingko","JAK.43","Tongtek - Cililitan","00B0EC",3
+"JAK-44","tj-jaklingko","JAK.44","Andara - Lenteng Agung","00B0EC",3
+"JAK-45","tj-jaklingko","JAK.45","Ragunan - Lebak Bulus","00B0EC",3
+"JAK.46","tj-jaklingko","JAK.46","Pasar Minggu - Jagakarsa","00B0EC",3
+"JAK-47","tj-jaklingko","JAK.47","Terminal Pasar Minggu - Ciganjur","00B0EC",3
+"JAK.49","tj-jaklingko","JAK.49","Lebak Bulus - Cipulir","00B0EC",3
+"JAK-50","tj-jaklingko","JAK.50","Kalideres - Puri Kembangan","00B0EC",3
+"JAK-51","tj-jaklingko","JAK.51","Taman Kota - Budi Luhur","00B0EC",3
+"JAK.52","tj-jaklingko","JAK.52","Kalideres - Muara Angke","00B0EC",3
+"JAK.53","tj-jaklingko","JAK.53","Grogol - Pos Pengumben","00B0EC",3
+"JAK.54","tj-jaklingko","JAK.54","Grogol - Benhil","00B0EC",3
+"JAK-56","tj-jaklingko","JAK.56","Grogol - Srengseng","00B0EC",3
+"JAK-58","tj-jaklingko","JAK.58","Cilincing - Rorotan","00B0EC",3
+"JAK-59","tj-jaklingko","JAK.59","Rawamangun - Rawa Sengon","00B0EC",3
+"JAK-60","tj-jaklingko","JAK.60","Kelapa Gading - Sunter Kemayoran","00B0EC",3
+"JAK-61","tj-jaklingko","JAK.61","Pulo Gadung - Cempaka Putih","00B0EC",3
+"JAK-64","tj-jaklingko","JAK.64","Lenteng Agung - Aselih","00B0EC",3
+"JAK.71","tj-jaklingko","JAK.71","Kampung Rambutan - Pinang Ranti","00B0EC",3
+"JAK-72","tj-jaklingko","JAK.72","Kampung Rambutan - Pasar Rebo","00B0EC",3
+"JAK.73","tj-jaklingko","JAK.73","Jambore Cibubur - Pasar Rebo","00B0EC",3
+"JAK.74","tj-jaklingko","JAK.74","Terminal Rawamangun - Cipinang Muara","00B0EC",3
+"JAK-75","tj-jaklingko","JAK.75","Kampung Pulo - Halim","00B0EC",3
+"JAK-77","tj-jaklingko","JAK.77","Tanjung Priok - Jembatan Hitam","00B0EC",3
+"JAK.80","tj-jaklingko","JAK.80","Rawa Buaya - Rawa Kompeni","00B0EC",3
+"JAK.84","tj-jaklingko","JAK.84","Kampung Melayu - Kapin Raya","00B0EC",3
+"JAK.85","tj-jaklingko","JAK.85","Bintara - Cipinang Indah","00B0EC",3
+"JAK-88","tj-jaklingko","JAK.88","Tanjung Priok - Ancol Barat","00B0EC",3
+"1K","tj-royaltrans","1K","Cibubur - Blok M","FF4271",3
+"6P_royaltrans","tj-royaltrans","6P","Cibubur - Kuningan","BFFFAF",3
+"B13","tj-royaltrans","B13","Summarecon Bekasi - Blok M","FF873D",3
+"B14","tj-royaltrans","B14","Summarecon Bekasi - Kuningan","D14274",3
+"S12_royaltrans","tj-royaltrans","S12","BSD Serpong - Stasiun MRT Fatmawati","46B5D4",3
+"S31","tj-royaltrans","S31","Bintaro - Stasiun MRT Fatmawati","D6BF60",3
