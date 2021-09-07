@@ -90,3 +90,4 @@ trans_schedule <- function(t) {
 
 # to be continue
 
+saveRDS(sch_url, "data/schedule_list.rds")
