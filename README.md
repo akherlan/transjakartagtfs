@@ -8,12 +8,12 @@ Create Transjakarta BRT datasets in GTFS format.
 
 ### Todo
 
--   [] Add `trips.service_id` based on schedule from Moovit
--   [] Create `stop_times.stop_sequence` with correct value
--   [] Add `stop_times.arrival_time` and `stop_times.departure_time` from where?
--   [] Create **calendar.txt** and **calendar_dates.txt**
--   [] Validate GTFS transit feeds
--   [] Add a license??
+-   [ ] Add `trips.service_id` based on schedule from Moovit
+-   [ ] Create `stop_times.stop_sequence` with correct value
+-   [ ] Add `stop_times.arrival_time` and `stop_times.departure_time` from where?
+-   [ ] Create **calendar.txt** and **calendar_dates.txt**
+-   [ ] Validate GTFS transit feeds
+-   [ ] Add a license??
 
 ### Data Sources
 
