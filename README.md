@@ -17,9 +17,9 @@ Create Transjakarta BRT datasets in GTFS format.
 
 ### Data Sources
 
--   [Trafi.com](https://www.trafi.com/)
+-   [Trafi](https://www.trafi.com/)
 
--   [Moovit.com](https://moovitapp.com/)
+-   [Moovit](https://moovitapp.com/)
 
 -   [BRTData.net](https://www.brtdata.net/city?c=jakarta) (not yet)
 
@@ -35,4 +35,4 @@ Create Transjakarta BRT datasets in GTFS format.
 
 ### Contribution
 
-This repository was a clone project from [Rasyid Ridha](https://github.com/rasyidstat/transjakarta). For any contribution, kindly email me on [andi.herlan\@pm.me](mailto:andi.herlan@protonmail.com) or open an issue or pull request.
+This repository was a clone project from [Rasyid Ridha](https://github.com/rasyidstat/transjakarta). For further contribution, kindly email me on [andi.herlan\@pm.me](mailto:andi.herlan@protonmail.com) or open an issue or pull request.

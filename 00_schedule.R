@@ -6,9 +6,11 @@ library(stringr)
 
 rm(list = ls())
 
+# get html
 url <- "https://moovitapp.com/index/en/public_transit-lines-Jakarta-2044-851786"
 h <- read_html(url)
 
+# forming a list url table
 link <- h %>%
   html_elements("div.lines-container") %>%
   html_elements("li.line-item") %>%
@@ -28,7 +30,7 @@ route_name <- gsub("^.+line-(\\w+)-Jakarta.+", "\\1", link)
 sch_url <- bind_cols(route_name, route, link, alternate)
 names(sch_url) <- c("name", "route", "url_direction", "url_alternate")
 
-# function
+# get alert
 get_alert <- function(x){
   x %>%
     read_html() %>%
@@ -37,17 +39,12 @@ get_alert <- function(x){
     str_squish()
 }
 
-get_schedule <- function(url_char) {
-  read_html(url_char) %>%
-    html_table() %>%
-    .[[1]]
-}
-
-# get alert
+# caution: takes time!
 alert_direction <- map(sch_url$url_direction, get_alert)
 alert_direction <- map_chr(alert_direction, length)
 alert_direction <- ifelse(alert_direction > 0, "No Service", "Operation")
 
+# caution: takes time!
 alert_alternate <- map(sch_url$url_alternate, get_alert)
 alert_alternate <- map_chr(alert_alternate, length)
 alert_alternate <- ifelse(alert_alternate > 0, "No Service", "Operation")
@@ -57,6 +54,12 @@ sch_url <- bind_cols(sch_url, alert_direction, alert_alternate) %>%
   rename("alert_direction" = "...5",
          "alert_alternate" = "...6")
 
+# get schedules
+get_schedule <- function(url_char) {
+  read_html(url_char) %>%
+    html_table() %>%
+    .[[1]]
+}
 
 trans_schedule <- function(t) {
   t %>%
@@ -85,6 +88,5 @@ trans_schedule <- function(t) {
          end_time = ifelse(!is.na(end_time), paste(end_time, "00", sep = ":"), end_time))
 }
 
-
-
+# to be continue
 
