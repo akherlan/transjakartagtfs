@@ -58,3 +58,62 @@ sch_url <- bind_cols(sch_url, alert_direction, alert_contra) %>%
 # save url list
 saveRDS(sch_url, "data/schedule_list.rds")
 
+# sch_url <- readRDS("data/schedule_list.rds")
+
+# function for pull schedules
+get_schedule <- function(url_char) {
+  read_html(url_char) %>%
+    # html_table() %>%
+    # .[[1]]
+    html_table()
+}
+
+# function for time transformation
+trans_schedule <- function(t) {
+  t %>%
+    rename("day" = "Day", "oh" = "Operating Hours") %>%
+    mutate(oh = ifelse(oh == "Not Operational", NA, oh)) %>%
+    separate(col = "oh", into = c("start_time", "end_time"), sep = " - ") %>%
+    mutate(start_time = ifelse(str_detect(start_time, "AM"),
+                               str_remove(start_time, "\\s?AM"),
+                               paste(as.numeric(gsub(pattern = "^(\\d{1,2})\\:\\d{2}\\sPM$",
+                                                     replacement = "\\1",
+                                                     x = .$start_time)) + 12,
+                                     gsub(pattern = "^\\d{1,2}:(\\d{2})\\sPM$",
+                                          replacement = "\\1",
+                                          x = .$start_time),
+                                     sep = ":")),
+           start_time = ifelse(!is.na(start_time), paste(start_time, "00", sep = ":"), start_time),
+           end_time = ifelse(str_detect(end_time, "AM"),
+                             str_remove(end_time, "\\s?AM"),
+                             paste(as.numeric(gsub(pattern = "^(\\d{1,2})\\:\\d{2}\\sPM$",
+                                                   replacement = "\\1",
+                                                   x = .$end_time)) + 12,
+                                   gsub(pattern = "^\\d{1,2}:(\\d{2})\\sPM$",
+                                        replacement = "\\1",
+                                        x = .$end_time),
+                                   sep = ":")),
+           end_time = ifelse(!is.na(end_time), paste(end_time, "00", sep = ":"), end_time))
+}
+
+# gather schedule tables
+sch_list <- sch_url %>%
+  pivot_longer(cols = 3:4, names_to = "direction", values_to = "url") %>%
+  select(-matches("alert_")) %>%
+  mutate(schedule = map(url, get_schedule))
+
+sch_list <- sch_list %>%
+  select(name, route, direction, schedule, load_date) %>%
+  mutate(direction == "url_contra", 1, 0) %>%
+  unnest(schedule) %>%
+  distinct()
+
+# time transformation
+sch_list <- sch_list %>%
+  select(name, route, direction, schedule, load_date) %>%
+  unnest(schedule) %>%
+  trans_schedule()
+
+# save data
+saveRDS(sch_list, "data/tj_schedule.rds")
+

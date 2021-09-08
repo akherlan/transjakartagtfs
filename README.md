@@ -15,7 +15,7 @@ Description about files in this repository:
 -   [ ] Add `trips.service_id` based on **calendar.txt** and data from Moovit
 -   [ ] Create `stop_times.stop_sequence` with correct value (now, still replacement data)
 -   [ ] Add `stop_times.arrival_time` and `stop_times.departure_time` from where?
--   [x] Create one of **calendar.txt** or **calendar_dates.txt**
+-   [x] ~~Create one of **calendar.txt** or **calendar_dates.txt**~~
 -   [ ] Validate GTFS transit feeds
 -   [ ] Add a license??
 -   [ ] Add **frequencies.txt** (optional, based on schedule data and **stop_times.txt**)
@@ -24,6 +24,7 @@ Description about files in this repository:
 
 -   [Trafi](https://www.trafi.com/)
 -   [Moovit](https://moovitapp.com/)
+-   [Transjakarta](https://transjakarta.co.id)
 -   [BRTData.net](https://www.brtdata.net/city?c=jakarta) (not yet)
 -   [Global BRT Data](https://brtdata.org/location/asia/indonesia/jakarta) (not yet)
 
