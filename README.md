@@ -13,12 +13,13 @@ Description about files in this repository:
 ### Todo
 
 -   [x] ~~Add `trips.service_id` based on **calendar.txt** and data from Moovit~~
--   [ ] Create `stop_times.stop_sequence` with correct value (now, still replacement data)
+-   [ ] Create `stop_times.stop_sequence` with correct value (now, still placeholder data)
 -   [ ] Add `stop_times.arrival_time` and `stop_times.departure_time` from ??? data
 -   [x] ~~Create one of **calendar.txt** or **calendar_dates.txt**~~
+-   [ ] Fix same `trips.trip_id` (e.g. just a-b and b-a)
+-   [ ] Need `stop_times.arrival_time` and `stop_times.departure_time`
 -   [ ] Validate GTFS transit feeds
 -   [ ] Add a license??
--   [ ] Fix same `trips.trip_id` (e.g. just a-b and b-a)
 -   [ ] Add **frequencies.txt** (optional, based on schedule data and **stop_times.txt**)
 
 ### Data Sources
@@ -32,6 +33,7 @@ Description about files in this repository:
 ### Related Project
 
 -   [Bogor Angkot GTFS](https://github.com/michielbdejong/bogor-angkot-gtfs) by Michiel de Jong
+-   Available transit feeds in Indonesia: [list](http://transitfeeds.com/l/526-indonesia)
 
 ### References
 
