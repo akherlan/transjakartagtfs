@@ -13,12 +13,12 @@ Description about files in this repository:
 ### Todo
 
 -   [x] ~~Add `trips.service_id` based on **calendar.txt** and data from Moovit~~
--   [ ] Create `stop_times.stop_sequence` with correct value (now, still placeholder data)
--   [ ] Add `stop_times.arrival_time` and `stop_times.departure_time` from ??? data
+-   [x] ~~Create `stop_times.stop_sequence` with correct value (now, still placeholder data)~~
+-   [ ] Need `stop_times.arrival_time` and `stop_times.departure_time`
 -   [x] ~~Create one of **calendar.txt** or **calendar_dates.txt**~~
 -   [ ] Fix same `trips.trip_id` (e.g. just a-b and b-a)
--   [ ] Need `stop_times.arrival_time` and `stop_times.departure_time`
 -   [ ] Validate GTFS transit feeds
+-   [ ] route is still not in true shape
 -   [ ] Add a license??
 -   [ ] Add **frequencies.txt** (optional, based on schedule data and **stop_times.txt**)
 
