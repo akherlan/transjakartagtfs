@@ -2,13 +2,13 @@
 
 **Create Transjakarta BRT datasets using General Transit Feed Specification (GTFS) format**
 
-The GTFS defines a common format for public transportation schedules and associated geographic information. GTFS "feeds" let public transit agencies publish their transit data and developers write applications that consume that data in an interoperable way ([Google Transit](https://developers.google.com/transit/gtfs)).
+The General Transit Feed Specification (GTFS) is the de facto standard for transit passenger information. GTFS allows transportation service providers to share their geographic, schedule, fare, real-time, and other data with traveler-facing applications ([MobilityData.org](https://mobilitydata.org/what-we-do/#GTFS)). The feeds let public transit agencies publish their transit data and developers write applications that consume that data in an interoperable way ([Google Transit](https://developers.google.com/transit/gtfs)).
 
 Description about files in this repository:
 
 -   **00_get.R** for getting Transjakarta routes and stops details
 -   **00_schedule.R** for getting current schedules
--   **01\*.R - 06\*.R** for creating GTFS formatted txt files
+-   **01\*.R** - **06\*.R** for creating GTFS formatted txt files
 
 ### Todo
 
