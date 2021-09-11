@@ -17,8 +17,7 @@ Description about files in this repository:
 -   [ ] Need `stop_times.arrival_time` and `stop_times.departure_time`
 -   [x] ~~Create one of **calendar.txt** or **calendar_dates.txt**~~
 -   [ ] Fix same `trips.trip_id` (e.g. just a-b and b-a)
--   [ ] Validate GTFS transit feeds
--   [ ] route is still not in true shape
+-   [ ] Route is still not in true shape!
 -   [ ] Add a license??
 -   [ ] Add **frequencies.txt** (optional, based on schedule data and **stop_times.txt**)
 
@@ -29,6 +28,14 @@ Description about files in this repository:
 -   [Transjakarta](https://transjakarta.co.id)
 -   [BRTData.net](https://www.brtdata.net/city?c=jakarta) (not yet)
 -   [Global BRT Data](https://brtdata.org/location/asia/indonesia/jakarta) (not yet)
+
+### Workflow
+
+![](figs/flow.png "flow diagram")
+
+### Validation Status
+
+GTFS validation is done using [`tidytransit`](https://github.com/r-transit/tidytransit) package can be [seen here](validation_status.csv).
 
 ### Related Project
 
