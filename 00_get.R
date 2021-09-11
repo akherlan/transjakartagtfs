@@ -8,8 +8,8 @@ rm(list = ls())
 # get route info
 main_url <- "https://web.trafi.com/api/schedules/jakarta/"
 tj <- paste0(main_url, "all?transportType=")
-
 tj <- fromJSON(paste0(tj, "transjakarta"))[[1]]
+
 tj <- tj[,2:3] %>% unnest("schedules")
 
 # get details for each route

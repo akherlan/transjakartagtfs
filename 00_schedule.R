@@ -31,41 +31,38 @@ sch_url <- bind_cols(route_name, route, link, contra)
 names(sch_url) <- c("name", "route", "url_direction", "url_contra")
 
 # get alert
-get_alert <- function(x){
-  x %>%
-    read_html() %>%
-    html_elements("label.alert-header") %>%
-    html_text() %>%
-    str_squish()
-}
+# get_alert <- function(x){
+#   x %>%
+#     read_html() %>%
+#     html_elements("label.alert-header") %>%
+#     html_text() %>%
+#     str_squish()
+# }
+#
+# # caution: takes time!
+# alert_direction <- map(sch_url$url_direction, get_alert)
+# alert_direction <- map_chr(alert_direction, length)
+# alert_direction <- ifelse(alert_direction > 0, "No Service", "Operation")
+#
+# # caution: takes time!
+# alert_contra <- map(sch_url$url_contra, get_alert)
+# alert_contra <- map_chr(alert_contra, length)
+# alert_contra <- ifelse(alert_contra > 0, "No Service", "Operation")
+#
+# # add alert column
+# sch_url <- bind_cols(sch_url, alert_direction, alert_contra) %>%
+#   rename("alert_direction" = "...5",
+#          "alert_contra" = "...6") %>%
+#   mutate(load_date = Sys.Date())
+#
+# # save url list
+# saveRDS(sch_url, "data/schedule_url.rds")
 
-# caution: takes time!
-alert_direction <- map(sch_url$url_direction, get_alert)
-alert_direction <- map_chr(alert_direction, length)
-alert_direction <- ifelse(alert_direction > 0, "No Service", "Operation")
-
-# caution: takes time!
-alert_contra <- map(sch_url$url_contra, get_alert)
-alert_contra <- map_chr(alert_contra, length)
-alert_contra <- ifelse(alert_contra > 0, "No Service", "Operation")
-
-# add alert column
-sch_url <- bind_cols(sch_url, alert_direction, alert_contra) %>%
-  rename("alert_direction" = "...5",
-         "alert_contra" = "...6") %>%
-  mutate(load_date = Sys.Date())
-
-# save url list
-saveRDS(sch_url, "data/schedule_list.rds")
-
-# sch_url <- readRDS("data/schedule_list.rds")
+# sch_url <- readRDS("data/schedule_url.rds")
 
 # function for pull schedules
 get_schedule <- function(url_char) {
-  read_html(url_char) %>%
-    # html_table() %>%
-    # .[[1]]
-    html_table()
+  read_html(url_char) %>% html_table()
 }
 
 # function for time transformation
@@ -96,24 +93,51 @@ trans_schedule <- function(t) {
            end_time = ifelse(!is.na(end_time), paste(end_time, "00", sep = ":"), end_time))
 }
 
-# gather schedule tables
+# gather schedule tables (crawling) will takes time
 sch_list <- sch_url %>%
   pivot_longer(cols = 3:4, names_to = "direction", values_to = "url") %>%
   select(-matches("alert_")) %>%
   mutate(schedule = map(url, get_schedule))
 
-sch_list <- sch_list %>%
-  select(name, route, direction, schedule, load_date) %>%
-  mutate(direction == "url_contra", 1, 0) %>%
+sc <- sch_list %>%
+  select(name, route, direction, schedule) %>%
+  mutate(direction = ifelse(direction == "url_contra", 1, 0),
+         load_date = Sys.Date()) %>%
   unnest(schedule) %>%
   distinct()
 
 # time transformation
-sch_list <- sch_list %>%
+sc <- sc %>%
   select(name, route, direction, schedule, load_date) %>%
   unnest(schedule) %>%
   trans_schedule()
 
-# save data
-saveRDS(sch_list, "data/tj_schedule.rds")
+# rename schedule for suitability with gtfs headers
+names(sc) <- c("route_id", "trip", "direction_id",  "day",
+               "start_time", "end_time", "load_date")
 
+# detect non directional trip names
+ndtrip <- sc %>%
+  select(route_id, trip) %>%
+  mutate(strip = str_detect(trip, "-")) %>%
+  filter(strip == FALSE) %>%
+  .$route_id %>%
+  unique()
+
+# add headsign in schedule data
+sc <- sc %>%
+  mutate(trip = ifelse(route_id %in% ndtrip,
+                       paste(trip, trip, sep = "-"),
+                       trip)) %>%
+  separate(col = "trip", into = c("trip_0", "trip_1"),
+           sep = "-") %>%
+  mutate(trip_0 = str_trim(trip_0),
+         trip_1 = str_trim(trip_1)) %>%
+  mutate(trip_headsign = ifelse(direction_id == 1,
+                                paste(trip_1, trip_0, sep = " - "),
+                                paste(trip_0, trip_1, sep = " - ")),
+         .after = route_id) %>%
+  select(-trip_0, -trip_1)
+
+# save data
+saveRDS(sc, "data/tj_schedule.rds")

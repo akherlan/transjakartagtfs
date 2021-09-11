@@ -15,7 +15,8 @@ agency <- tj %>%
                         "https://transjakarta.co.id",
                         "https://www.jaklingkoindonesia.co.id/id",
                         "https://transjakarta.co.id"),
-         agency_timezone = "Asia/Jakarta")
+         agency_timezone = "Asia/Jakarta") %>%
+  mutate(agency_id = gsub("tj-", "", .$agency_id))
 
 # save data
-write.csv(agency, "data/gtfs/agency.txt", row.names = FALSE)
+write.csv(agency, "data/gtfs/agency.txt", row.names = FALSE, na = "")

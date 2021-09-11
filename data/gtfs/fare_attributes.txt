@@ -1,0 +1,7 @@
+"fare_id","price","currency_type","payment_method","transfers","agency_id"
+"brt-pagi",2000,"IDR",1,,"brt"
+"brt-regular",3500,"IDR",1,,"brt"
+"brt-malam",3500,"IDR",1,,"brt"
+"brt-free",0,"IDR",1,,"freebus"
+"tj-angkot",,"IDR",0,,"jaklingko"
+"tj-royal",,"IDR",1,,"royaltrans"

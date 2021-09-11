@@ -32,4 +32,4 @@ routes <- tj %>%
 # 12 : Monorail. Railway in which the track consists of a single rail or a beam.
 
 # save data
-write.csv(routes, "data/gtfs/routes.txt", row.names = FALSE)
+write.csv(routes, "data/gtfs/routes.txt", row.names = FALSE, na = "")

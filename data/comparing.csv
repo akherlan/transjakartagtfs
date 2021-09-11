@@ -1,0 +1,766 @@
+"direction_id_mo","route_id_mo","trip_headsign_mo","trip_headsign_tr","route_id_tr","direction_id_tr","trip_id"
+0,"1","blok m - kota","blok m - kota","1",0,"1.001"
+0,"1","blok m - kota","bundaran senayan - kota","1",0,"1.404"
+0,"1","blok m - kota","harmoni - kota","1",0,"1.502"
+0,"1","blok m - kota","blok m - harmoni","1",0,"1.009"
+0,"1","blok m - kota","blok m - tosari","1",0,"1.205A"
+0,"1","blok m - kota","monas - kota","1",0,"1.012B"
+0,"1","blok m - kota","blok m - kota via jl. pattimura","1",0,"a1-b"
+0,"1","blok m - kota","blok m - harmoni via jl. pattimura","1",0,"a1-c"
+0,"1","blok m - kota","blok m - tosari via jl. pattimura","1",0,"a1-d"
+0,"1","blok m - kota","bundaran senayan - harmoni","1",0,"1.327B"
+0,"1","blok m - kota","bundaran hi - kota","1",0,"1.214B"
+0,"1","blok m - kota","blok m - monas","1",0,"1.207"
+0,"1","blok m - kota","blok m - bank indonesia","1",0,"1.209B"
+1,"1","kota - blok m","kota - blok m","1",1,"1.002"
+1,"1","kota - blok m","kota - bundaran senayan","1",1,"1.008"
+1,"1","kota - blok m","kota - harmoni","1",1,"1.006"
+1,"1","kota - blok m","harmoni - blok m","1",1,"1.501"
+1,"1","kota - blok m","tosari - blok m","1",1,"1.205B"
+1,"1","kota - blok m","kota - monas","1",1,"1.012"
+1,"1","kota - blok m","bundaran senayan - blok m","1",1,"1.402"
+1,"1","kota - blok m","kota - dukuh atas 2","1",1,"1.014"
+1,"1","kota - blok m","harmoni - bundaran senayan","1",1,"1.327"
+1,"1","kota - blok m","kota - bundaran hi","1",1,"1.214A"
+1,"1","kota - blok m","monas - blok m","1",1,"1.216"
+1,"1","kota - blok m","bank indonesia - blok m","1",1,"1.209A"
+0,"1A","pik - balai kota","pik - balai kota","1A",0,"N4.001"
+0,"1A","pik - balai kota","pik - harmoni","1A",0,"1.A201A"
+0,"1A","pik - balai kota","pik - kota","1A",0,"1.A305"
+0,"1A","pik - balai kota","pik - penjaringan","1A",0,"1.A205A"
+0,"1A","pik - balai kota","landmark pluit auto plaza - balai kota","1A",0,"1.A311"
+0,"1A","pik - balai kota","kota - monas","1A",0,"1.A204B"
+0,"1A","pik - balai kota","penjaringan - balai kota","1A",0,"1.A206B"
+0,"1A","pik - balai kota","kota - balai kota","1A",0,"1.A210B"
+0,"1A","pik - balai kota","penjaringan - monas","1A",0,"1.A316B"
+1,"1A","balai kota - pik","balai kota - pik","1A",1,"N4.002"
+1,"1A","balai kota - pik","harmoni - pik","1A",1,"1.A201B"
+1,"1A","balai kota - pik","kota - pik","1A",1,"1.A006"
+1,"1A","balai kota - pik","penjaringan - pik","1A",1,"1.A205B"
+1,"1A","balai kota - pik","monas - kota","1A",1,"1.A204A"
+1,"1A","balai kota - pik","balai kota - penjaringan","1A",1,"1.A206A"
+1,"1A","balai kota - pik","balai kota - kota","1A",1,"1.A210A"
+1,"1A","balai kota - pik","monas - penjaringan","1A",1,"1.A316A"
+0,"1B","stasiun palmerah - tosari","stasiun palmerah - tosari","1B",0,"N27.001"
+1,"1B","tosari - stasiun palmerah","tosari - stasiun palmerah","1B",1,"N27.002"
+0,"1C","pesanggrahan - blok m","blok m - bintaro via pesanggrahan","1C",0,"A0"
+1,"1C","blok m - pesanggrahan","bintaro - blok m via pesanggrahan","1C",1,"A1"
+0,"1E","pondok labu - blok m","pondok labu - blok m","1E",0,"a-b"
+0,"1E","pondok labu - blok m","fatmawati - blok m","1E",0,"c-b"
+1,"1E","blok m - pondok labu","blok m - pondok labu","1E",1,"b-a"
+1,"1E","blok m - pondok labu","blok m - fatmawati","1E",1,"b-c"
+0,"1F","stasiun palmerah - bundaran senayan","stasiun palmerah - bundaran senayan","1F",0,"1F.001"
+0,"1F","stasiun palmerah - bundaran senayan","stasiun palmerah - bundaran senayan via jl. asia afrika","1F",0,"1F.003"
+1,"1F","bundaran senayan - stasiun palmerah","bundaran senayan - stasiun palmerah","1F",1,"1F.002"
+0,"1H","stasiun tanah abang - stasiun gondangdia","stasiun tanah abang - stasiun gondangdia - stasiun tanah abang","1H",0,"a-b"
+1,"1H","stasiun gondangdia - stasiun tanah abang",NA,NA,NA,NA
+0,"1K","cibubur - blok m","cibubur - blok m","1K",0,"A0"
+1,"1K","blok m - cibubur","blok m - cibubur","1K",1,"A1"
+0,"1M","meruya - blok m","meruya - blok m","1M",0,"a-b"
+1,"1M","blok m - meruya","blok m - meruya","1M",1,"b-a"
+0,"1N","tanah abang - blok m","tanah abang - blok m","1N",0,"a-b"
+0,"1N","tanah abang - blok m","tanah abang - bundaran senayan","1N",0,"a-c"
+0,"1N","tanah abang - blok m","bundaran hi - blok m","1N",0,"d-b"
+1,"1N","blok m - tanah abang","blok m - tanah abang","1N",1,"b-a"
+1,"1N","blok m - tanah abang","bundaran senayan - tanah abang","1N",1,"c-a"
+1,"1N","blok m - tanah abang","blok m - bundaran hi","1N",1,"b-d"
+0,"1P","terminal senen - bundaran senayan","senen - bundaran senayan","1P",0,"a-b"
+1,"1P","bundaran senayan - terminal senen","bundaran senayan - senen","1P",1,"b-a"
+0,"1Q","blok m - rempoa",NA,NA,NA,NA
+1,"1Q","rempoa - blok m",NA,NA,NA,NA
+0,"1R","stasiun tanah abang - terminal senen","senen - stasiun tanah abang","1R",0,"a-b"
+0,"1R","stasiun tanah abang - terminal senen","stasiun pasar senen - stasiun tanah abang via jl kwini","1R",0,"a1-b"
+0,"1R","stasiun tanah abang - terminal senen","stasiun pasar senen - jatibaru","1R",0,"a-c"
+1,"1R","terminal senen - stasiun tanah abang","stasiun tanah abang - senen","1R",1,"b-a"
+1,"1R","terminal senen - stasiun tanah abang","jatibaru - stasiun pasar senen","1R",1,"c-a"
+1,"1T","kota - cibubur",NA,NA,NA,NA
+1,"1U","balaikota - tmii",NA,NA,NA,NA
+0,"2","pulo gadung - harmoni","pulo gadung - harmoni","2",0,"2.001"
+0,"2","pulo gadung - harmoni","pulo gadung - harmoni via gambir","2",0,"2.0011"
+0,"2","pulo gadung - harmoni","pulo gadung - harmoni via gunung sahari","2",0,"2.001A"
+0,"2","pulo gadung - harmoni","pulo gadung - asmi","2",0,"2.003"
+0,"2","pulo gadung - harmoni","asmi - harmoni","2",0,"2.022"
+0,"2","pulo gadung - harmoni","bermis - harmoni","2",0,"2.204B"
+1,"2","harmoni - pulo gadung","harmoni - pulo gadung","2",1,"2.002"
+1,"2","harmoni - pulo gadung","harmoni - pulo gadung via gunung sahari","2",1,"2.002B"
+1,"2","harmoni - pulo gadung","asmi - pulo gadung","2",1,"2.023"
+1,"2","harmoni - pulo gadung","harmoni - asmi","2",1,"2.004"
+1,"2","harmoni - pulo gadung","harmoni - bermis","2",1,"2.204A"
+1,"2A","rawa buaya - pulo gadung",NA,NA,NA,NA
+0,"2B","asmi - harapan indah",NA,NA,NA,NA
+1,"2B","harapan indah - asmi",NA,NA,NA,NA
+1,"2D","asmi - kalideres",NA,NA,NA,NA
+0,"2E","rusun rawa bebek - pakin",NA,NA,NA,NA
+1,"2E","pakin - rusun rawa bebek",NA,NA,NA,NA
+0,"2F","rusun cakung barat - pulo gadung","rusun cakung barat (albo) - pulo gadung","2F",0,"N5.004"
+1,"2F","pulo gadung - rusun cakung barat","pulo gadung - rusun cakung barat (albo)","2F",1,"N5.003"
+0,"2H","rusun jati rawasari - senen",NA,NA,NA,NA
+1,"2H","senen - rusun jati rawasari",NA,NA,NA,NA
+1,"2K","harapan indah - jgc",NA,NA,NA,NA
+0,"2P","gondangdia - senen",NA,NA,NA,NA
+1,"2P","senen - gondangdia",NA,NA,NA,NA
+0,"2Q","gondangdia - balai kota",NA,NA,NA,NA
+1,"2Q","balai kota - gondangdia",NA,NA,NA,NA
+0,"3","kalideres - pasar baru","kalideres - pasar baru","3",0,"3.002"
+0,"3","kalideres - pasar baru","kalideres - juanda","3",0,"3.012"
+0,"3","kalideres - pasar baru","kalideres - harmoni","3",0,"3.005B"
+0,"3","kalideres - pasar baru","rawa buaya - harmoni","3",0,"3.021"
+0,"3","kalideres - pasar baru","grogol - pasar baru","3",0,"3.102B"
+0,"3","kalideres - pasar baru","kalideres - indosiar","3",0,"3.102A"
+0,"3","kalideres - pasar baru","pesakih - harmoni","3",0,"3.203B"
+0,"3","kalideres - pasar baru","kalideres - sumber waras","3",0,"3.202B"
+0,"3","kalideres - pasar baru","harmoni - pasar baru","3",0,"3.307"
+1,"3","pasar baru - kalideres","pasar baru - kalideres","3",1,"3.001"
+1,"3","pasar baru - kalideres","juanda - kalideres","3",1,"3.013"
+1,"3","pasar baru - kalideres","harmoni - kalideres","3",1,"3.005"
+1,"3","pasar baru - kalideres","harmoni - rawa buaya","3",1,"3.003"
+1,"3","pasar baru - kalideres","rawabuaya - kalideres","3",1,"3.022"
+1,"3","pasar baru - kalideres","pasar baru - grogol","3",1,"3.101A"
+1,"3","pasar baru - kalideres","indosiar - kalideres","3",1,"3.101B"
+1,"3","pasar baru - kalideres","harmoni - pesakih","3",1,"3.203A"
+1,"3","pasar baru - kalideres","sumber waras - kalideres","3",1,"3.202A"
+0,"3A","rusun pesakih - kalideres","rusun pesakih - kalideres","3A",0,"N8.001"
+1,"3A","kalideres - rusun pesakih","kalideres - rusun pesakih","3A",1,"N8.002"
+0,"3B","rusun flamboyan - kalideres",NA,NA,NA,NA
+1,"3B","kalideres - rusun flamboyan",NA,NA,NA,NA
+0,"3C","rusun kapuk muara - penjaringan",NA,NA,NA,NA
+1,"3C","penjaringan - rusun kapuk muara",NA,NA,NA,NA
+0,"3D","penjaringan - rawa buaya",NA,NA,NA,NA
+1,"3D","rawa buaya - penjaringan",NA,NA,NA,NA
+0,"3E","sentraland cengkareng - puri kembangan","sentraland cengkareng - puri kembangan","3E",0,"a-b"
+0,"3E","sentraland cengkareng - puri kembangan","sentraland cengkareng - rawa buaya","3E",0,"a-c"
+0,"3E","sentraland cengkareng - puri kembangan","rawa buaya - puri kembangan","3E",0,"c-b"
+1,"3E","puri kembangan - sentraland cengkareng","puri kembangan - sentraland cengkareng","3E",1,"b-a"
+1,"3E","puri kembangan - sentraland cengkareng","rawa buaya - sentraland cengkareng","3E",1,"c-a"
+1,"3E","puri kembangan - sentraland cengkareng","puri kembangan - rawa buaya","3E",1,"b-c"
+0,"3F","kalideres - gelora bung karno","kalideres - gelora bung karno","3F",0,"a-b"
+1,"3F","gelora bung karno - kalideres","gelora bung karno - kalideres","3F",1,"b-a"
+0,"4","pulo gadung 2 - dukuh atas 2","pulo gadung - tosari","4",0,"4.002"
+0,"4","pulo gadung 2 - dukuh atas 2","tu gas - tosari","4",0,"4.020"
+0,"4","pulo gadung 2 - dukuh atas 2","pulo gadung - matraman 2","4",0,"4.004"
+0,"4","pulo gadung 2 - dukuh atas 2","pulo gadung - tu gas","4",0,"4.006"
+0,"4","pulo gadung 2 - dukuh atas 2","tu gas - matraman","4",0,"4.226A"
+0,"4","pulo gadung 2 - dukuh atas 2","pulo gadung - tosari via bermis","4",0,"4.310"
+0,"4","pulo gadung 2 - dukuh atas 2","tu gas - manggarai","4",0,"4.228"
+1,"4","dukuh atas 2 - pulo gadung 2","tosari - pulo gadung","4",1,"4.001"
+1,"4","dukuh atas 2 - pulo gadung 2","tosari - tu gas","4",1,"4.003"
+1,"4","dukuh atas 2 - pulo gadung 2","matraman - pulo gadung","4",1,"4.202B"
+1,"4","dukuh atas 2 - pulo gadung 2","tu gas - pulo gadung","4",1,"4.021"
+1,"4","dukuh atas 2 - pulo gadung 2","matraman - tu gas","4",1,"4.226B"
+1,"4","dukuh atas 2 - pulo gadung 2","tosari - pulo gadung via bermis","4",1,"4.005"
+1,"4","dukuh atas 2 - pulo gadung 2","manggarai - tu gas","4",1,"4.007"
+0,"4A","tu gas - jelambar",NA,NA,NA,NA
+1,"4A","jelambar - tu gas",NA,NA,NA,NA
+0,"4B","stasiun manggarai - universitas indonesia","stasiun manggarai - universitas indonesia","4B",0,"N16.001"
+0,"4B","stasiun manggarai - universitas indonesia","stasiun manggarai - pasar minggu","4B",0,"4B.003"
+1,"4B","universitas indonesia - stasiun manggarai","universitas indonesia - stasiun manggarai","4B",1,"N16.004"
+1,"4B","universitas indonesia - stasiun manggarai","universitas indonesia - stasiun manggarai via kampus ui","4B",1,"N16.002"
+1,"4B","universitas indonesia - stasiun manggarai","pasar minggu - stasiun manggarai","4B",1,"4B.004"
+0,"4C","tu gas - bundaran senayan","bundaran senayan - tu gas","4C",0,"A0"
+0,"4C","tu gas - bundaran senayan","bundaran senayan - jl. proklamasi","4C",0,"B0"
+1,"4C","bundaran senayan - tu gas","tu gas - bundaran senayan","4C",1,"A1"
+1,"4C","bundaran senayan - tu gas","jl. proklamasi - bundaran senayan","4C",1,"B1"
+0,"4D","pulo gadung - patra kuningan","pulo gadung - patra kuningan","4D",0,"b-d"
+0,"4D","pulo gadung - patra kuningan","pulo gadung - departemen kesehatan","4D",0,"b-c"
+0,"4D","pulo gadung - patra kuningan","tu gas - patra kuningan","4D",0,"A0"
+0,"4D","pulo gadung - patra kuningan","tu gas - departemen kesehatan","4D",0,"a-c"
+1,"4D","patra kuningan - pulo gadung","patra kuningan - pulo gadung","4D",1,"d-b"
+1,"4D","patra kuningan - pulo gadung","departemen kesehatan - pulo gadung","4D",1,"c-b"
+1,"4D","patra kuningan - pulo gadung","patra kuningan - tu gas","4D",1,"A1"
+1,"4D","patra kuningan - pulo gadung","departemen kesehatan - tu gas","4D",1,"c-a"
+0,"4E","pulo gadung - rusun jatinegara kaum",NA,NA,NA,NA
+1,"4E","rusun jatinegara kaum - pulo gadung",NA,NA,NA,NA
+0,"4F","pinang ranti - pulo gadung","pulo gadung - pinang ranti","4F",0,"a-b1"
+0,"4F","pinang ranti - pulo gadung","pulo gadung - pondok gede","4F",0,"a-b"
+0,"4F","pinang ranti - pulo gadung","pondok gede - pinang ranti","4F",0,"b-b1"
+1,"4F","pulo gadung - pinang ranti","pinang ranti - pulo gadung","4F",1,"b1-a"
+1,"4F","pulo gadung - pinang ranti","pondok gede - pulo gadung","4F",1,"b-a"
+1,"4F","pulo gadung - pinang ranti","pinang ranti - pondok gede","4F",1,"b1-b"
+0,"4H","pulo gadung 2 - ragunan",NA,NA,NA,NA
+1,"4H","ragunan - pulo gadung 2",NA,NA,NA,NA
+1,"4K","blok m - pulo gadung 2",NA,NA,NA,NA
+1,"4M","kota - pulo gadung",NA,NA,NA,NA
+0,"5","kampung melayu - ancol","ancol - kampung melayu","5",0,"5.001"
+0,"5","kampung melayu - ancol","senen - kampung melayu","5",0,"5.202B"
+0,"5","kampung melayu - ancol","ancol - kebon pala","5",0,"5.201A"
+0,"5","kampung melayu - ancol","pademangan - kampung melayu","5",0,"5.103"
+0,"5","kampung melayu - ancol","ancol - kampung melayu via flyover senen","5",0,"5.005"
+1,"5","ancol - kampung melayu","kampung melayu - ancol","5",1,"5.002"
+1,"5","ancol - kampung melayu","kampung melayu - senen","5",1,"5.004"
+1,"5","ancol - kampung melayu","kebon pala - ancol","5",1,"5.201B"
+1,"5","ancol - kampung melayu","kampung melayu - ancol via flyover senen","5",1,"5.006"
+0,"5A","kampung melayu - grogol 1",NA,NA,NA,NA
+1,"5A","grogol 1 - kampung melayu",NA,NA,NA,NA
+0,"5B","stasiun tebet - bidara cina","stasiun tebet - kebon pala - bidara cina - stasiun tebet","5B",0,"A0"
+0,"5B","stasiun tebet - bidara cina","stasiun tebet - bidara cina - stasiun tebet","5B",0,"B0"
+1,"5B","bidara cina - stasiun tebet",NA,NA,NA,NA
+0,"5C","pgc 1 - harmoni","pgc - harmoni","5C",0,"7.031"
+0,"5C","pgc 1 - harmoni","pgc - harmoni via sawah besar","5C",0,"7.031A"
+0,"5C","pgc 1 - harmoni","kampung melayu - harmoni","5C",0,"c-b"
+1,"5C","harmoni - pgc 1","harmoni - pgc","5C",1,"7.030"
+1,"5C","harmoni - pgc 1","harmoni - kampung melayu","5C",1,"b-c"
+1,"5C","harmoni - pgc 1","harmoni - cawang uki","5C",1,"5.C033"
+0,"5D","pgc 1 - ancol","pgc - ancol","5D",0,"7.033"
+0,"5D","pgc 1 - ancol","pgc - ancol via senen central","5D",0,"7.033A"
+0,"5D","pgc 1 - ancol","pgc - senen central","5D",0,"5.D201A"
+1,"5D","ancol - pgc 1","ancol - pgc","5D",1,"5.003"
+1,"5D","ancol - pgc 1","senen central - pgc","5D",1,"5.D201B"
+0,"5E","kampung rambutan - ancol",NA,NA,NA,NA
+1,"5E","ancol - kampung rambutan",NA,NA,NA,NA
+0,"5F","kampung melayu - tanah abang","kampung melayu - tanah abang","5F",0,"a-b"
+1,"5F","tanah abang - kampung melayu","tanah abang - kampung melayu","5F",1,"b-a"
+0,"5H","harmoni - ancol",NA,NA,NA,NA
+1,"5H","ancol - harmoni",NA,NA,NA,NA
+0,"5K","kampung melayu - kota",NA,NA,NA,NA
+1,"5K","kota - kampung melayu",NA,NA,NA,NA
+0,"5M","kampung melayu - tanah abang (via cikini)","kampung melayu - stasiun tanah abang via cikini","5M",0,"a-c"
+0,"5M","kampung melayu - tanah abang (via cikini)","kampung melayu - tanah abang via cikini","5M",0,"a-b"
+1,"5M","tanah abang (via cikini) - kampung melayu","stasiun tanah abang - kampung melayu via cikini","5M",1,"c-a"
+1,"5M","tanah abang (via cikini) - kampung melayu","tanah abang - kampung melayu via cikini","5M",1,"b-a"
+0,"5N","kampung melayu - ragunan",NA,NA,NA,NA
+1,"5N","ragunan - kampung melayu",NA,NA,NA,NA
+0,"6","ragunan - halimun","ragunan - halimun","6",0,"6.203A"
+0,"6","ragunan - halimun","ragunan - tosari","6",0,"6.003"
+0,"6","ragunan - halimun","ragunan - dukuh atas","6",0,"6.001"
+0,"6","ragunan - halimun","ragunan - setiabudi utara aini","6",0,"6.201A"
+0,"6","ragunan - halimun","smk 57 - dukuh atas","6",0,"a-b"
+0,"6","ragunan - halimun","departemen kesehatan - dukuh atas","6",0,"6.202A"
+0,"6","ragunan - halimun","kuningan timur - dukuh atas","6",0,"6.204B"
+0,"6","ragunan - halimun","ragunan - smk 57","6",0,"6.207A"
+1,"6","halimun - ragunan","halimun - ragunan","6",1,"6.203B"
+1,"6","halimun - ragunan","tosari - ragunan","6",1,"6.004"
+1,"6","halimun - ragunan","dukuh atas - ragunan","6",1,"6.002"
+1,"6","halimun - ragunan","setiabudi utara aini - ragunan","6",1,"6.201B"
+1,"6","halimun - ragunan","dukuh atas - smk 57","6",1,"b-a"
+1,"6","halimun - ragunan","dukuh atas - departemen kesehatan","6",1,"6.202B"
+1,"6","halimun - ragunan","dukuh atas - kuningan timur","6",1,"6.102"
+1,"6","halimun - ragunan","smk 57 - ragunan","6",1,"6.207B"
+0,"6A","ragunan - monas via kuningan","ragunan - monas via kuningan","6A",0,"6A.003"
+0,"6A","ragunan - monas via kuningan","smk 57 - monas via kuningan","6A",0,"a-b"
+0,"6A","ragunan - monas via kuningan","departemen kesehatan - monas","6A",0,"c-b"
+0,"6A","ragunan - monas via kuningan","dukuh atas - monas","6A",0,"d-b"
+0,"6A","ragunan - monas via kuningan","kuningan timur - monas","6A",0,"6.206B"
+0,"6A","ragunan - monas via kuningan","ragunan - tosari via kuningan","6A",0,"6A.005"
+1,"6A","monas via kuningan - ragunan","monas - ragunan via kuningan","6A",1,"6.600"
+1,"6A","monas via kuningan - ragunan","monas - smk 57 via kuningan","6A",1,"b-a"
+1,"6A","monas via kuningan - ragunan","monas - departemen kesehatan","6A",1,"b-c"
+1,"6A","monas via kuningan - ragunan","monas - dukuh atas","6A",1,"b-d"
+1,"6A","monas via kuningan - ragunan","monas - kuningan timur","6A",1,"6.206A"
+1,"6A","monas via kuningan - ragunan","tosari - ragunan via kuningan","6A",1,"6.A006"
+0,"6B","ragunan - monas via semanggi","ragunan - monas via semanggi","6B",0,"6.005"
+0,"6B","ragunan - monas via semanggi","smk 57 - monas via semanggi","6B",0,"a-b"
+0,"6B","ragunan - monas via semanggi","ragunan - tosari via semanggi","6B",0,"6.B203"
+1,"6B","monas via semanggi - ragunan","monas - ragunan via semanggi","6B",1,"6.601"
+1,"6B","monas via semanggi - ragunan","monas - smk 57 via semanggi","6B",1,"b-a"
+1,"6B","monas via semanggi - ragunan","tosari - ragunan via semanggi","6B",1,"6.B220"
+0,"6C","stasiun tebet - karet via patra kuningan","stasiun tebet - patra kuningan - karet - stasiun tebet","6C",0,"A0"
+0,"6C","stasiun tebet - karet via patra kuningan","stasiun tebet - patra kuningan - stasiun tebet","6C",0,"B0"
+1,"6C","karet via patra kuningan - stasiun tebet",NA,NA,NA,NA
+0,"6D","stasiun tebet - karet via underpass","stasiun tebet - karet - stasiun tebet","6D",0,"N21.001"
+0,"6D","stasiun tebet - karet via underpass","stasiun tebet - lotte - stasiun tebet","6D",0,"N21.001A"
+1,"6D","karet via underpass - stasiun tebet",NA,NA,NA,NA
+0,"6E","stasiun tebet - karet via mega kuningan",NA,NA,NA,NA
+1,"6E","karet via mega kuningan - stasiun tebet",NA,NA,NA,NA
+0,"6F","stasiun manggarai - ragunan",NA,NA,NA,NA
+1,"6F","ragunan - stasiun manggarai",NA,NA,NA,NA
+0,"6H","lebak bulus - senen","lebak bulus - senen","6H",0,"8.003"
+0,"6H","lebak bulus - senen","lebak bulus - setiabudi utara aini","6H",0,"N15.003A"
+0,"6H","lebak bulus - senen","departemen kesehatan - senen","6H",0,"c-d"
+1,"6H","senen - lebak bulus","senen - lebak bulus","6H",1,"N15.002"
+1,"6H","senen - lebak bulus","setiabudi utara aini - lebak bulus","6H",1,"N15.003B"
+1,"6H","senen - lebak bulus","senen - departemen kesehatan","6H",1,"d-c"
+0,"6M","stasiun manggarai - blok m","stasiun manggarai - blok m","6M",0,"A0"
+0,"6M","stasiun manggarai - blok m","stasiun manggarai - kuningan timur","6M",0,"B0"
+0,"6M","stasiun manggarai - blok m","stasiun manggarai - semanggi","6M",0,"C0"
+1,"6M","blok m - stasiun manggarai","blok m - stasiun manggarai","6M",1,"N26.017"
+1,"6M","blok m - stasiun manggarai","kuningan timur - stasiun manggarai","6M",1,"B1"
+1,"6M","blok m - stasiun manggarai","semanggi - stasiun manggarai","6M",1,"C1"
+1,"6M","blok m - stasiun manggarai","blok m - stasiun manggarai via jl. pattimura","6M",1,"N26.017A"
+0,"6N","ragunan - blok m","ragunan - blok m","6N",0,"6N.001"
+1,"6N","blok m - ragunan","blok m - ragunan","6N",1,"6N.002"
+0,"6P","cibubur - kuningan","cibubur - kuningan","6P",0,"a-b"
+1,"6P","kuningan - cibubur","kuningan - cibubur","6P",1,"b-a"
+0,"6Q","epicentrum - kasablanka",NA,NA,NA,NA
+1,"6Q","kasablanka - epicentrum",NA,NA,NA,NA
+0,"6R","ragunan - st. mrt fatmawati","ragunan - stasiun mrt fatmawati - ragunan","6R",0,"a-b"
+1,"6R","st. mrt fatmawati - ragunan",NA,NA,NA,NA
+0,"7","kampung rambutan - kampung melayu","kampung rambutan - kampung melayu","7",0,"7.001"
+1,"7","kampung melayu - kampung rambutan","kampung melayu - kampung rambutan","7",1,"7.002"
+1,"7","kampung melayu - kampung rambutan","kampung melayu - kampung rambutan via tol tmii","7",1,"7.004"
+1,"7","kampung melayu - kampung rambutan","kampung melayu - kampung rambutan via jl. dewi sartika","7",1,"7.008"
+0,"7A","kampung rambutan - lebak bulus","lebak bulus - kampung rambutan","7A",0,"a1-b1"
+0,"7A","kampung rambutan - lebak bulus","lebak bulus - kampung rambutan via tol jl. ampera","7A",0,"8.009"
+0,"7A","kampung rambutan - lebak bulus","lebak bulus - kampung rambutan via tol jl. fatmawati","7A",0,"7A.006"
+0,"7A","kampung rambutan - lebak bulus","lebak bulus - tanjung barat","7A",0,"7A.202A"
+0,"7A","kampung rambutan - lebak bulus","fatmawati - kampung rambutan","7A",0,"7A.201A"
+1,"7A","lebak bulus - kampung rambutan","kampung rambutan - lebak bulus","7A",1,"b1-a1"
+1,"7A","lebak bulus - kampung rambutan","kampung rambutan - lebak bulus via tol jl. ampera","7A",1,"7.015"
+1,"7A","lebak bulus - kampung rambutan","kampung rambutan - lebak bulus via tol jl. raya bogor","7A",1,"b2-a2"
+1,"7A","lebak bulus - kampung rambutan","kampung rambutan - lebak bulus","7A",1,"7A.202B"
+1,"7A","lebak bulus - kampung rambutan","kampung rambutan - fatmawati","7A",1,"7A.201B"
+0,"7B","kampung rambutan - blok m","kampung rambutan - blok m","7B",0,"N29.001"
+0,"7B","kampung rambutan - blok m","pgc - blok m","7B",0,"a-b"
+0,"7B","kampung rambutan - blok m","kampung rambutan - blok m via warung jati","7B",0,"N29.003"
+1,"7B","blok m - kampung rambutan","blok m - kampung rambutan","7B",1,"N29.002"
+1,"7B","blok m - kampung rambutan","blok m - pgc","7B",1,"b-a"
+1,"7B","blok m - kampung rambutan","pgc - kampung rambutan","7B",1,"c-d"
+0,"7C","cibubur - bkn","cibubur - bkn","7C",0,"A0"
+0,"7C","cibubur - bkn","cibubur - bkn","7C",0,"B0"
+1,"7C","bkn - cibubur","bkn - cibubur","7C",1,"A1"
+1,"7C","bkn - cibubur","bkn - pinang ranti","7C",1,"B1"
+0,"7D","cawang uki - tmii","tmii - cawang cikoko","7D",0,"b1-a"
+0,"7D","cawang uki - tmii","tmii - cawang uki","7D",0,"B0"
+1,"7D","tmii - cawang uki","cawang cikoko - tmii","7D",1,"a-b"
+0,"7E","kampung rambutan - ragunan",NA,NA,NA,NA
+1,"7E","ragunan - kampung rambutan",NA,NA,NA,NA
+1,"7F","harmoni (via cempaka putih) - kampung rambutan",NA,NA,NA,NA
+0,"7M","kampung rambutan - pulo gadung 2",NA,NA,NA,NA
+1,"7M","pulo gadung 2 - kampung rambutan",NA,NA,NA,NA
+0,"7N","gandaria - kampung rambutan",NA,NA,NA,NA
+1,"7N","kampung rambutan - gandaria",NA,NA,NA,NA
+0,"7P","pondok kelapa - bkn","pondok kelapa - bkn","7P",0,"a-b"
+1,"7P","bkn - pondok kelapa","bkn - pondok kelapa","7P",1,"b-a"
+0,"8","lebak bulus - harmoni","lebak bulus - harmoni","8",0,"8.001"
+0,"8","lebak bulus - harmoni","lebak bulus - harmoni via tomang","8",0,"8.005"
+0,"8","lebak bulus - harmoni","lebak bulus - indosiar","8",0,"8.201A"
+0,"8","lebak bulus - harmoni","pasar kebayoran lama - harmoni","8",0,"8.202B"
+0,"8","lebak bulus - harmoni","pondok indah 2 - harmoni","8",0,"8.101"
+1,"8","harmoni - lebak bulus","harmoni - lebak bulus","8",1,"8.002"
+1,"8","harmoni - lebak bulus","harmoni - lebak bulus via tomang","8",1,"8.004"
+1,"8","harmoni - lebak bulus","indosiar - lebak bulus","8",1,"8.201B"
+1,"8","harmoni - lebak bulus","harmoni - pasar kebayoran lama","8",1,"8.202A"
+1,"8","harmoni - lebak bulus","harmoni - pondok indah 2","8",1,"8.102"
+0,"8A","grogol 2 - harmoni","harmoni - grogol","8A",0,"8A.008"
+0,"8A","grogol 2 - harmoni","harmoni - roxy - grogol - harmoni","8A",0,"8.006"
+1,"8A","harmoni - grogol 2","grogol - harmoni","8A",1,"8A.002"
+0,"8C","tanah abang - kebayoran lama",NA,NA,NA,NA
+1,"8C","kebayoran lama - tanah abang",NA,NA,NA,NA
+0,"8D","joglo - blok m","blok m - joglo","8D",0,"A0"
+1,"8D","blok m - joglo","joglo - blok m","8D",1,"A1"
+0,"8E","bintaro - blok m","blok m - bintaro","8E",0,"a-b"
+0,"8E","bintaro - blok m","blok m - bintaro kodam","8E",0,"a-c"
+1,"8E","blok m - bintaro","bintaro - blok m","8E",1,"b-a"
+1,"8E","blok m - bintaro","bintaro kodam - blok m","8E",1,"c-a"
+0,"8K","tanah abang - batusari","tanah abang - batusari","8K",0,"a-b"
+0,"8K","tanah abang - batusari","tanah abang - grogol","8K",0,"a-c"
+0,"8K","tanah abang - batusari","grogol - batusari","8K",0,"c-b"
+1,"8K","batusari - tanah abang","batusari - tanah abang","8K",1,"b-a"
+1,"8K","batusari - tanah abang","grogol - tanah abang","8K",1,"c-a"
+1,"8K","batusari - tanah abang","batusari - grogol","8K",1,"b-c"
+0,"9","pinang ranti - pluit","pinang ranti - pluit","9",0,"9.001"
+0,"9","pinang ranti - pluit","pinang ranti - pluit via tol dalam kota","9",0,"9.007"
+0,"9","pinang ranti - pluit","pinang ranti - grogol","9",0,"9.005"
+0,"9","pinang ranti - pluit","pinang ranti - kuningan barat","9",0,"9.203A"
+0,"9","pinang ranti - pluit","tomang - pluit","9",0,"9.204B"
+0,"9","pinang ranti - pluit","pinang ranti - slipi petamburan","9",0,"9.207A"
+0,"9","pinang ranti - pluit","pinang ranti - bnn","9",0,"9.205A"
+0,"9","pinang ranti - pluit","pinang ranti - harapan kita","9",0,"9.209A"
+0,"9","pinang ranti - pluit","pinang ranti - pgc 2 - grogol","9",0,"9.003"
+0,"9","pinang ranti - pluit","grogol - pluit","9",0,"9.016"
+0,"9","pinang ranti - pluit","cawang uki - pluit","9",0,"9.206B"
+1,"9","pluit - pinang ranti","pluit - pinang ranti","9",1,"9.002"
+1,"9","pluit - pinang ranti","grogol - pinang ranti","9",1,"9.014"
+1,"9","pluit - pinang ranti","kuningan barat - pinang ranti","9",1,"9.203B"
+1,"9","pluit - pinang ranti","pluit - tomang","9",1,"9.204A"
+1,"9","pluit - pinang ranti","slipi petamburan - pinang ranti","9",1,"9.207B"
+1,"9","pluit - pinang ranti","bnn - pinang ranti","9",1,"9.205B"
+1,"9","pluit - pinang ranti","harapan kita - pinang ranti","9",1,"9.209B"
+1,"9","pluit - pinang ranti","pgc 2 - bnn - pinang ranti","9",1,"9.015"
+1,"9","pluit - pinang ranti","pluit - grogol","9",1,"9.008"
+1,"9","pluit - pinang ranti","pluit - penjaringan","9",1,"9.202"
+1,"9","pluit - pinang ranti","pluit - cawang uki","9",1,"9.206A"
+0,"9A","pgc 2 - pluit",NA,NA,NA,NA
+1,"9A","pluit - pgc 2",NA,NA,NA,NA
+1,"9B","kota - pinang ranti",NA,NA,NA,NA
+1,"9C","bundaran senayan - pinang ranti",NA,NA,NA,NA
+0,"9D","pasar minggu - tanah abang","pasar minggu - tanah abang","9D",0,"a-b"
+0,"9D","pasar minggu - tanah abang","bundaran hi - tanah abang","9D",0,"c-b"
+0,"9D","pasar minggu - tanah abang","pasar minggu - bundaran hi","9D",0,"a-c"
+0,"9D","pasar minggu - tanah abang","pasar minggu - semanggi","9D",0,"a-d"
+1,"9D","tanah abang - pasar minggu","tanah abang - pasar minggu","9D",1,"b-a"
+1,"9D","tanah abang - pasar minggu","tanah abang - bundaran hi","9D",1,"b-c"
+1,"9D","tanah abang - pasar minggu","bundaran hi - pasar minggu","9D",1,"c-a"
+1,"9D","tanah abang - pasar minggu","semanggi - pasar minggu","9D",1,"d-a"
+0,"9E","kebayoran lama - jelambar","kebayoran lama - jelambar","9E",0,"9E.005"
+0,"9E","kebayoran lama - jelambar","kebayoran lama - grogol","9E",0,"N22.201A"
+0,"9E","kebayoran lama - jelambar","kebayoran lama - rs harapan kita","9E",0,"9E.003"
+1,"9E","jelambar - kebayoran lama","jelambar - kebayoran lama","9E",1,"9E.010"
+1,"9E","jelambar - kebayoran lama","grogol - kebayoran lama","9E",1,"N22.201B"
+1,"9E","jelambar - kebayoran lama","rs harapan kita - kebayoran lama","9E",1,"9E.004"
+0,"9F","rusun tambora - pluit",NA,NA,NA,NA
+1,"9F","pluit - rusun tambora",NA,NA,NA,NA
+0,"9H","cipedak - blok m","cipedak - blok m","9H",0,"a-b"
+0,"9H","cipedak - blok m","setu babakan - blok m","9H",0,"c-b"
+1,"9H","blok m - cipedak","blok m - cipedak","9H",1,"b-a"
+1,"9H","blok m - cipedak","blok m - setu babakan","9H",1,"b-c"
+1,"9K","grogol 2 - kampung rambutan",NA,NA,NA,NA
+1,"9M","halimun - pinang ranti",NA,NA,NA,NA
+0,"10","tanjung priok - pgc 2","tanjung priok - pgc 2","10",0,"10.002"
+0,"10","tanjung priok - pgc 2","walikota jakarta utara - pgc 2","10",0,"10.203B"
+0,"10","tanjung priok - pgc 2","sunter kelapa gading - pgc 2","10",0,"10.201B"
+0,"10","tanjung priok - pgc 2","tanjung priok - penas kalimalang","10",0,"10.200A"
+0,"10","tanjung priok - pgc 2","pemuda pramuka - pgc 2","10",0,"10.207B"
+1,"10","pgc 2 - tanjung priok","pgc 2 - tanjung priok","10",1,"10.001"
+1,"10","pgc 2 - tanjung priok","pgc 2 - walikota jakarta utara","10",1,"10.203A"
+1,"10","pgc 2 - tanjung priok","pgc 2 - sunter kelapa gading","10",1,"10.003"
+1,"10","pgc 2 - tanjung priok","penas kalimalang - tanjung priok","10",1,"10.200B"
+1,"10","pgc 2 - tanjung priok","pgc 2 - pemuda pramuka","10",1,"10.207A"
+0,"10A","tanjung priok - rusun marunda","rusun marunda - tanjung priok","10A",0,"N7.001"
+1,"10A","rusun marunda - tanjung priok","tanjung priok - rusun marunda","10A",1,"10A.002"
+0,"10B","penas kalimalang - rusun cipinang besar selatan","rusun cipinang besar selatan - penas kalimalang - rusun cipinang besar selatan","10B",0,"N6.002"
+1,"10B","rusun cipinang besar selatan - penas kalimalang",NA,NA,NA,NA
+0,"10C","tanjung priok - pelabuhan tanjung priok",NA,NA,NA,NA
+1,"10C","pelabuhan tanjung priok - tanjung priok",NA,NA,NA,NA
+0,"10D","tanjung priok - kampung rambutan","tanjung priok - kampung rambutan","10D",0,"a-b"
+1,"10D","kampung rambutan - tanjung priok","kampung rambutan - tanjung priok","10D",1,"b-a"
+0,"10F","sunter kelapa gading - st. lrt pegangsaan dua",NA,NA,NA,NA
+1,"10F","st. lrt pegangsaan dua - sunter kelapa gading",NA,NA,NA,NA
+0,"10H","tanjung priok - blok m",NA,NA,NA,NA
+1,"10H","blok m - tanjung priok",NA,NA,NA,NA
+0,"10K","tanjung priok - senen (via taman bmw)","tanjung priok - senen via taman bmw","10K",0,"a-b"
+1,"10K","senen (via taman bmw) - tanjung priok","senen - tanjung priok via taman bmw","10K",1,"b-a"
+0,"11","pulo gebang - kampung melayu","kampung melayu - pulo gebang","11",0,"11.004"
+0,"11","pulo gebang - kampung melayu","kampung melayu - walikota jakarta timur","11",0,"11.002"
+0,"11","pulo gebang - kampung melayu","walikota jakarta timur - pulo gebang","11",0,"11.003"
+1,"11","kampung melayu - pulo gebang","pulo gebang - kampung melayu","11",1,"11.00111"
+1,"11","kampung melayu - pulo gebang","walikota jakarta timur - kampung melayu","11",1,"11.001"
+0,"11A","pulo gebang - rawamangun",NA,NA,NA,NA
+1,"11A","rawamangun - pulo gebang",NA,NA,NA,NA
+0,"11B","rusun rawa bebek - penggilingan","rusun rawa bebek - penggilingan","11B",0,"N5.002"
+1,"11B","penggilingan - rusun rawa bebek","rusun rawa bebek - penggilingan","11B",1,"N5.001"
+0,"11C","rusun pinus elok - rusun pulo gebang","rusun pinus elok - rusun pulo gebang","11C",0,"N11.002"
+1,"11C","rusun pulo gebang - rusun pinus elok","rusun pulo gebang - rusun pinus elok","11C",1,"N11.001"
+0,"11D","pulo gebang - pulo gadung via pikptc","pulo gadung - pulo gebang","11D",0,"11D.004"
+1,"11D","pulo gadung via pikptc - pulo gebang","pulo gebang - pulo gadung","11D",1,"11D.003"
+0,"11K","rusun komarudin - penggilingan","rusun rawa bebek - bukit duri","11K",0,"a-b"
+1,"11K","penggilingan - rusun komarudin","bukit duri - rusun rawa bebek","11K",1,"b-a"
+0,"11M","rusun rawa bebek - bukit duri",NA,NA,NA,NA
+1,"11M","bukit duri - rusun rawa bebek",NA,NA,NA,NA
+0,"11N","rusun cipinang muara - jatinegara",NA,NA,NA,NA
+1,"11N","jatinegara - rusun cipinang muara",NA,NA,NA,NA
+0,"11P","rusun pondok bambu - walikota jakarta timur",NA,NA,NA,NA
+1,"11P","walikota jakarta timur - rusun pondok bambu",NA,NA,NA,NA
+0,"11Q","pulo gebang - kampung melayu via bkt","pulo gebang - kampung melayu via bkt","11Q",0,"a-b"
+0,"11Q","pulo gebang - kampung melayu via bkt","pulo gebang - tebet via bkt","11Q",0,"a-c"
+1,"11Q","kampung melayu via bkt - pulo gebang","kampung melayu - pulo gebang via bkt","11Q",1,"b-a"
+1,"11Q","kampung melayu via bkt - pulo gebang","tebet - pulo gebang via bkt","11Q",1,"c-a"
+0,"11R","rusun cakung km 2 - bukit duri",NA,NA,NA,NA
+1,"11R","bukit duri - rusun cakung km 2",NA,NA,NA,NA
+0,"11T","pulo gebang - stasiun cakung",NA,NA,NA,NA
+1,"11T","stasiun cakung - pulo gebang",NA,NA,NA,NA
+0,"11U","pulo gebang - stasiun cakung (via cilincing)",NA,NA,NA,NA
+1,"11U","stasiun cakung (via cilincing) - pulo gebang",NA,NA,NA,NA
+0,"12","penjaringan - sunter kelapa gading","penjaringan - sunter kelapa gading","12",0,"12.204A"
+0,"12","penjaringan - sunter kelapa gading","tanjung priok - penjaringan","12",0,"12.001"
+0,"12","penjaringan - sunter kelapa gading","tanjung priok - pluit","12",0,"12.003"
+0,"12","penjaringan - sunter kelapa gading","tanjung priok - kota","12",0,"12.601"
+0,"12","penjaringan - sunter kelapa gading","sunter kelapa gading - kota","12",0,"12.311"
+0,"12","penjaringan - sunter kelapa gading","mangga dua - penjaringan","12",0,"12.208B"
+0,"12","penjaringan - sunter kelapa gading","kota - penjaringan","12",0,"1.600"
+1,"12","sunter kelapa gading - penjaringan","sunter kelapa gading - penjaringan","12",1,"12.204B"
+1,"12","sunter kelapa gading - penjaringan","penjaringan - tanjung priok","12",1,"12.002"
+1,"12","sunter kelapa gading - penjaringan","pluit - tanjung priok","12",1,"12.702"
+1,"12","sunter kelapa gading - penjaringan","kota - tanjung priok","12",1,"1.602"
+1,"12","sunter kelapa gading - penjaringan","kota - sunter kelapa gading","12",1,"12.004"
+1,"12","sunter kelapa gading - penjaringan","penjaringan - mangga dua","12",1,"12.208A"
+1,"12","sunter kelapa gading - penjaringan","penjaringan - kota","12",1,"12.600"
+0,"12A","kaliadem - kota",NA,NA,NA,NA
+1,"12A","kota - kaliadem",NA,NA,NA,NA
+0,"12B","pluit - senen","pluit - senen","12B",0,"N9.004"
+0,"12B","pluit - senen","kota - senen","12B",0,"12.B003"
+0,"12B","pluit - senen","pluit - kota","12B",0,"12.B202A"
+1,"12B","senen - pluit","senen - pluit","12B",1,"A1"
+1,"12B","senen - pluit","senen - kota","12B",1,"12.B004"
+1,"12B","senen - pluit","kota - pluit","12B",1,"12.B202B"
+0,"12C","rusun waduk pluit - penjaringan",NA,NA,NA,NA
+1,"12C","penjaringan - rusun waduk pluit",NA,NA,NA,NA
+0,"12D","rusun sukapura - sunter",NA,NA,NA,NA
+1,"12D","sunter - rusun sukapura",NA,NA,NA,NA
+0,"12E","history of jakarta explorer - history of jakarta explorer",NA,NA,NA,NA
+1,"12E","history of jakarta explorer - history of jakarta explorer",NA,NA,NA,NA
+0,"12F","rusun waduk pluit - rusun marunda","rusun marunda - rusun waduk pluit","12F",0,"N7.001"
+1,"12F","rusun marunda - rusun waduk pluit","rusun waduk pluit - rusun marunda","12F",1,"10A.002"
+0,"12H","rusun penjaringan - penjaringan",NA,NA,NA,NA
+1,"12H","penjaringan - rusun penjaringan",NA,NA,NA,NA
+0,"12K","asemka explorer - asemka explorer",NA,NA,NA,NA
+1,"12K","asemka explorer - asemka explorer",NA,NA,NA,NA
+0,"13","puri beta - tendean","tendean - cbd ciledug","13",0,"a-b"
+0,"13","puri beta - tendean","tendean - puri beta","13",0,"a-c"
+0,"13","puri beta - tendean","puri beta - cbd ciledug","13",0,"c-b"
+1,"13","tendean - puri beta","cbd ciledug - tendean","13",1,"b-a"
+1,"13","tendean - puri beta","puri beta - tendean","13",1,"c-a"
+1,"13","tendean - puri beta","cbd ciledug - puri beta","13",1,"b-c"
+1,"13","tendean - puri beta","puri beta - tirtayasa","13",1,"c-d"
+1,"13","tendean - puri beta","puri beta - jorr","13",1,"c-e"
+0,"13A","puri beta - blok m","blok m - puri beta","13A",0,"a-d"
+0,"13A","puri beta - blok m","blok m - cbd ciledug","13A",0,"a-b"
+0,"13A","puri beta - blok m","blok m - tendean","13A",0,"a-c"
+1,"13A","blok m - puri beta","puri beta - blok m","13A",1,"d-a"
+1,"13A","blok m - puri beta","cbd ciledug - blok m","13A",1,"b-a"
+1,"13A","blok m - puri beta","tendean - blok m","13A",1,"c-a"
+0,"13B","puri beta - pancoran barat",NA,NA,NA,NA
+1,"13B","pancoran barat - puri beta",NA,NA,NA,NA
+0,"13C","puri beta - dukuh atas","tosari - puri beta","13C",0,"a-b"
+0,"13C","puri beta - dukuh atas","tosari - rawa barat","13C",0,"a-c"
+1,"13C","dukuh atas - puri beta","puri beta - tosari","13C",1,"b-a"
+1,"13C","dukuh atas - puri beta","rawa barat - tosari","13C",1,"c-a"
+0,"13D","puri beta - ragunan","ragunan - puri beta","13D",0,"a-b"
+0,"13D","puri beta - ragunan","ragunan - ciledug cbd","13D",0,"a-c"
+1,"13D","ragunan - puri beta","puri beta - ragunan","13D",1,"b-a"
+1,"13D","ragunan - puri beta","ciledug cbd - ragunan","13D",1,"c-a"
+0,"13E","puri beta - kuningan","kuningan - puri beta","13E",0,"a-b"
+0,"13E","puri beta - kuningan","kuningan - rawa barat","13E",0,"a-c"
+1,"13E","kuningan - puri beta","puri beta - kuningan","13E",1,"b-a"
+1,"13E","kuningan - puri beta","rawa barat - kuningan","13E",1,"c-a"
+0,"B11","summarecon bekasi - tosari",NA,NA,NA,NA
+1,"B11","tosari - summarecon bekasi",NA,NA,NA,NA
+0,"B13","bekasi barat - blok m","summarecon bekasi - blok m","B13",0,"B13.001"
+1,"B13","blok m - bekasi barat","blok m - summarecon bekasi","B13",1,"B13.002"
+0,"B14","bekasi barat - kuningan","summarecon bekasi - kuningan","B14",0,"B14.001"
+1,"B14","kuningan - bekasi barat","kuningan - summarecon bekasi","B14",1,"B14.002"
+0,"B21","bekasi timur - grogol 2",NA,NA,NA,NA
+1,"B21","grogol 2 - bekasi timur",NA,NA,NA,NA
+0,"BW1","bus wisata 1 sejarah jakarta - bus wisata 1 sejarah jakarta",NA,NA,NA,NA
+1,"BW1","bus wisata 1 sejarah jakarta - bus wisata 1 sejarah jakarta",NA,NA,NA,NA
+0,"BW2","bus wisata 2 jakarta baru - bus wisata 2 jakarta baru",NA,NA,NA,NA
+1,"BW2","bus wisata 2 jakarta baru - bus wisata 2 jakarta baru",NA,NA,NA,NA
+0,"BW3","bus wisata 3 kesenian dan kuliner - bus wisata 3 kesenian dan kuliner",NA,NA,NA,NA
+1,"BW3","bus wisata 3 kesenian dan kuliner - bus wisata 3 kesenian dan kuliner",NA,NA,NA,NA
+0,"BW4","bus wisata 4 pencakar langit jakarta - bus wisata 4 pencakar langit jakarta",NA,NA,NA,NA
+1,"BW4","bus wisata 4 pencakar langit jakarta - bus wisata 4 pencakar langit jakarta",NA,NA,NA,NA
+0,"BW5","bus wisata 5 wisata rptra - bus wisata 5 wisata rptra",NA,NA,NA,NA
+1,"BW5","bus wisata 5 wisata rptra - bus wisata 5 wisata rptra",NA,NA,NA,NA
+0,"BW6","bus wisata 6 makam mbah priok - bus wisata 6 makam mbah priok",NA,NA,NA,NA
+1,"BW6","bus wisata 6 makam mbah priok - bus wisata 6 makam mbah priok",NA,NA,NA,NA
+0,"BW7","bus wisata 7 belanja jakarta - bus wisata 7 belanja jakarta",NA,NA,NA,NA
+1,"BW7","bus wisata 7 belanja jakarta - bus wisata 7 belanja jakarta",NA,NA,NA,NA
+0,"D11","depok - bkn",NA,NA,NA,NA
+1,"D11","bkn - depok",NA,NA,NA,NA
+0,"D21","universitas indonesia - lebak bulus",NA,NA,NA,NA
+1,"D21","lebak bulus - universitas indonesia",NA,NA,NA,NA
+0,"DA1","dukuh atas - sam ratulangi",NA,NA,NA,NA
+1,"DA1","sam ratulangi - dukuh atas",NA,NA,NA,NA
+0,"DA2","dukuh atas - tanah abang",NA,NA,NA,NA
+0,"DA3","dukuh atas - kuningan",NA,NA,NA,NA
+0,"DA4","dukuh atas - kota",NA,NA,NA,NA
+0,"EV1","blok m - balai kota",NA,NA,NA,NA
+1,"EV1","balai kota - blok m",NA,NA,NA,NA
+0,"GR1","harmoni - bundaran senayan",NA,NA,NA,NA
+1,"GR1","bundaran senayan - harmoni",NA,NA,NA,NA
+0,"GR2","tanah abang explorer - tanah abang explorer",NA,NA,NA,NA
+1,"GR2","tanah abang explorer - tanah abang explorer",NA,NA,NA,NA
+0,"GR4","kota intan - museum bahari","taman kota intan - museum bahari - taman kota intan","GR4",0,"GR4.001"
+1,"GR4","museum bahari - kota intan",NA,NA,NA,NA
+0,"GR5","kota tua explorer - kota tua explorer","kota tua explorer","GR5",0,"GR5.001"
+1,"GR5","kota tua explorer - kota tua explorer",NA,NA,NA,NA
+0,"L2","pulo gadung - harmoni via pramuka",NA,NA,NA,NA
+1,"L2","harmoni via pramuka - pulo gadung",NA,NA,NA,NA
+0,"L4","pgc 2 - dukuh atas 2",NA,NA,NA,NA
+0,"M1","blok m - kota",NA,NA,NA,NA
+1,"M1","kota - blok m",NA,NA,NA,NA
+0,"M2","pulo gadung - harmoni",NA,NA,NA,NA
+1,"M2","harmoni - pulo gadung",NA,NA,NA,NA
+0,"M3","kalideres - pasar baru",NA,NA,NA,NA
+1,"M3","pasar baru - kalideres",NA,NA,NA,NA
+0,"M4","pulo gadung 2 - tosari",NA,NA,NA,NA
+1,"M4","tosari - pulo gadung 2",NA,NA,NA,NA
+0,"M5","ancol - pgc 1",NA,NA,NA,NA
+1,"M5","pgc 1 - ancol",NA,NA,NA,NA
+0,"M6","ragunan - harmoni",NA,NA,NA,NA
+1,"M6","harmoni - ragunan",NA,NA,NA,NA
+0,"M7","kampung rambutan - harmoni",NA,NA,NA,NA
+1,"M7","harmoni - kampung rambutan",NA,NA,NA,NA
+0,"M8","lebak bulus - harmoni",NA,NA,NA,NA
+1,"M8","harmoni - lebak bulus",NA,NA,NA,NA
+0,"M9","pinang ranti - pluit",NA,NA,NA,NA
+1,"M9","pluit - pinang ranti",NA,NA,NA,NA
+0,"M10","pgc 2 - tanjung priok",NA,NA,NA,NA
+1,"M10","tanjung priok - pgc 2",NA,NA,NA,NA
+0,"M11","pulo gebang - pulo gadung",NA,NA,NA,NA
+1,"M11","pulo gadung - pulo gebang",NA,NA,NA,NA
+0,"MR1","blok m - pakubuwono",NA,NA,NA,NA
+1,"MR1","pakubuwono - blok m",NA,NA,NA,NA
+0,"MR2","blok m - kramat pela",NA,NA,NA,NA
+1,"MR2","kramat pela - blok m",NA,NA,NA,NA
+0,"MR3","blok m - wijaya",NA,NA,NA,NA
+1,"MR3","wijaya - blok m",NA,NA,NA,NA
+0,"MR5","stasiun mrt blok a - radio dalam",NA,NA,NA,NA
+1,"MR5","radio dalam - stasiun mrt blok a",NA,NA,NA,NA
+0,"MR8","stasiun mrt blok a - pangeran antasari",NA,NA,NA,NA
+1,"MR8","pangeran antasari - stasiun mrt blok a",NA,NA,NA,NA
+0,"MR9","south quarter - lebak bulus",NA,NA,NA,NA
+1,"MR9","lebak bulus - south quarter",NA,NA,NA,NA
+0,"S11","bsd - jelambar",NA,NA,NA,NA
+1,"S11","jelambar - bsd",NA,NA,NA,NA
+0,"S12","bsd - fatmawati","bsd serpong - stasiun mrt fatmawati","S12",0,"a-b1"
+0,"S12","bsd - fatmawati","bsd serpong - bundaran senayan","S12",0,"a-b"
+1,"S12","fatmawati - bsd","stasiun mrt fatmawati - bsd serpong","S12",1,"b1-a"
+1,"S12","fatmawati - bsd","bundaran senayan - bsd serpong","S12",1,"b-a"
+0,"S21","ciputat - tosari",NA,NA,NA,NA
+1,"S21","tosari - ciputat",NA,NA,NA,NA
+0,"S22","ciputat - kampung rambutan",NA,NA,NA,NA
+1,"S22","kampung rambutan - ciputat",NA,NA,NA,NA
+0,"S31","bintaro - fatmawati","bintaro - stasiun mrt fatmawati","S31",0,"a-c"
+0,"S31","bintaro - fatmawati","bintaro - blok m","S31",0,"a-b"
+1,"S31","fatmawati - bintaro","stasiun mrt fatmawati - bintaro","S31",1,"c-a"
+1,"S31","fatmawati - bintaro","blok m - bintaro","S31",1,"b-a"
+0,"S41","pondok cabe - tanah abang",NA,NA,NA,NA
+1,"S41","tanah abang - pondok cabe",NA,NA,NA,NA
+0,"T11","poris plawad - bundaran senayan",NA,NA,NA,NA
+0,"T12","poris plawad - juanda",NA,NA,NA,NA
+1,"T12","juanda - poris plawad",NA,NA,NA,NA
+0,"TR3","harmoni - pasar baru",NA,NA,NA,NA
+1,"TR3","pasar baru - harmoni",NA,NA,NA,NA
+0,"W1","pelabuhan sunda kelapa - kota",NA,NA,NA,NA
+1,"W1","kota - pelabuhan sunda kelapa",NA,NA,NA,NA
+NA,NA,NA,"blok m - rempoa","S23",0,"a-b"
+NA,NA,NA,"rempoa - blok m","S23",1,"b-a"
+NA,NA,NA,"gondangdia - senen - gondangdia","TR1",0,"a-b"
+NA,NA,NA,"gondangdia - balai kota - gondangdia","TR2",0,"a-b"
+NA,NA,NA,"rusun komarudin - penggilingan","11J",0,"11A.002"
+NA,NA,NA,"penggilingan - rusun komarudin","11J",1,"11A.001"
+NA,NA,NA,"tanjung priok - plumpang","JAK-1",0,"a-b"
+NA,NA,NA,"plumpang - tanjung priok","JAK-1",1,"b-a"
+NA,NA,NA,"kampung melayu - duren sawit","OK-2",0,"a-b"
+NA,NA,NA,"duren sawit - kampung melayu","OK-2",1,"b-a"
+NA,NA,NA,"pondok labu - lebak bulus","OK-3",0,"b-a"
+NA,NA,NA,"lebak bulus - pondok labu","OK-3",1,"a-b"
+NA,NA,NA,"grogol - tubagus angke","OK-4",0,"a-b"
+NA,NA,NA,"tubagus angke - grogol","OK-4",1,"b-a"
+NA,NA,NA,"semper - rorotan","OK-5",0,"a-b"
+NA,NA,NA,"rorotan - semper","OK-5",1,"b-a"
+NA,NA,NA,"kampung rambutan - pondok gede","OK-6",0,"a-b"
+NA,NA,NA,"pondok gede - kampung rambutan","OK-6",1,"b-a"
+NA,NA,NA,"tanah abang - grogol","JAK-7",0,"b-a"
+NA,NA,NA,"grogol - tanah abang","JAK-7",1,"a-b"
+NA,NA,NA,"roxy - bendungan hilir via tanah abang","JAK-8",0,"a-b"
+NA,NA,NA,"roxy mas - karet","JAK.09",0,"a-b"
+NA,NA,NA,"tanah abang - kota","JAK-10",0,"a-b"
+NA,NA,NA,"kota - tanah abang","JAK-10",1,"b-a"
+NA,NA,NA,"tanah abang - kota via asemka","JAK-10",0,"a-b1"
+NA,NA,NA,"gondangdia - cikini via salemba","JAK.10A",0,"a-b"
+NA,NA,NA,"cikini - gondangdia via salemba","JAK.10A",1,"b-a"
+NA,NA,NA,"gondangdia - cikini via kramat","JAK.10B",0,"a-b"
+NA,NA,NA,"cikini - gondangdia via kramat","JAK.10B",1,"b-a"
+NA,NA,NA,"tanah abang - kebayoran lama","JAK-11",0,"a-b"
+NA,NA,NA,"kebayoran lama - tanah abang","JAK-11",1,"b-a"
+NA,NA,NA,"pulo gadung - tanah merah","JAK.112",0,"a-b"
+NA,NA,NA,"tanah merah - pulo gadung","JAK.112",1,"b-a"
+NA,NA,NA,"terminal tanjung priok - terminal tanah merdeka","JAK.117",0,"a-b"
+NA,NA,NA,"terminal tanah merdeka - terminal tanjung priok","JAK.117",1,"b-a"
+NA,NA,NA,"tanah abang - kebayoran lama via pos pengumben","JAK-12",0,"a-b"
+NA,NA,NA,"kebayoran lama - tanah abang via pos pengumben","JAK-12",1,"b-a"
+NA,NA,NA,"tanah abang - kota intan via jembatan lima","JAK.13",0,"a-b"
+NA,NA,NA,"kota intan - tanah abang via jembatan lima","JAK.13",1,"b-a"
+NA,NA,NA,"tanah abang - kota intan via asemka","JAK.13",0,"a-b1"
+NA,NA,NA,"kota intan - tanah abang via asemka","JAK.13",1,"b-a1"
+NA,NA,NA,"tanah abang - meruya","JAK-14",0,"a-b"
+NA,NA,NA,"meruya - tanah abang","JAK-14",1,"b-a"
+NA,NA,NA,"tanjung priok - bulak turi","OK-15",0,"a-b"
+NA,NA,NA,"bulak turi - tanjung priok","OK-15",1,"b-a"
+NA,NA,NA,"cililitan - condet","OK-16",0,"a-b"
+NA,NA,NA,"condet - cililitan","OK-16",1,"b-a"
+NA,NA,NA,"pulo gadung - senen","OK-17",0,"a-b"
+NA,NA,NA,"senen - pulo gadung","OK-17",1,"b-a"
+NA,NA,NA,"stasiun duren kalibata - kuningan","OK-18",0,"a-b"
+NA,NA,NA,"kuningan - stasiun duren kalibata","OK-18",1,"b-a"
+NA,NA,NA,"pinang ranti - setu","OK-19",0,"a-b"
+NA,NA,NA,"setu - pinang ranti","OK-19",1,"b-a"
+NA,NA,NA,"lubang buaya - cawang uki","OK-20",0,"a-b"
+NA,NA,NA,"cawang uki - lubang buaya","OK-20",1,"b-a"
+NA,NA,NA,"pgc - dwikora","OK-21",0,"a-b"
+NA,NA,NA,"dwikora - pgc","OK-21",1,"b-a"
+NA,NA,NA,"penas kalimalang - dwikora","OK-22",0,"a-b"
+NA,NA,NA,"dwikora - penas kalimalang","OK-22",1,"b-a"
+NA,NA,NA,"senen - pulo gadung via kelapa gading","JAK-24",0,"a-b"
+NA,NA,NA,"pulo gadung - senen via kelapa gading","JAK-24",1,"b-a"
+NA,NA,NA,"kalisari - pasar rebo","OK-25",0,"a-b"
+NA,NA,NA,"pasar rebo - kalisari","OK-25",1,"b-a"
+NA,NA,NA,"duren sawit - rawamangun","OK-26",0,"a-b"
+NA,NA,NA,"rawamangun - duren sawit","OK-26",1,"b-a"
+NA,NA,NA,"rorotan - pulo gebang","OK-27",0,"a-b"
+NA,NA,NA,"pulo gebang - rorotan","OK-27",1,"b-a"
+NA,NA,NA,"pasar rebo - taman wiladatika","OK-28",0,"a-b"
+NA,NA,NA,"taman wiladatika - pasar rebo","OK-28",1,"b-a"
+NA,NA,NA,"tanjung priok - semper - rusun sukapura","OK-29",0,"a-b"
+NA,NA,NA,"rusun sukapura - semper - tanjung priok","OK-29",1,"b-a"
+NA,NA,NA,"grogol - meruya","OK-30",0,"a-b"
+NA,NA,NA,"meruya - grogol","OK-30",1,"b-a"
+NA,NA,NA,"pondok labu - blok m","OK-31",0,"a-b"
+NA,NA,NA,"blok m - pondok labu","OK-31",1,"b-a"
+NA,NA,NA,"petukangan - lebak bulus","OK-32",0,"a-b"
+NA,NA,NA,"lebak bulus - petukangan","OK-32",1,"b-a"
+NA,NA,NA,"pulo gadung - kota","OK-33",0,"a-b"
+NA,NA,NA,"kota - pulo gadung","OK-33",1,"b-a"
+NA,NA,NA,"rawamangun - klender","JAK-34",0,"a-b"
+NA,NA,NA,"klender - rawamangun","JAK-34",1,"b-a"
+NA,NA,NA,"rawamangun - pangkalan jati","JAK.35",0,"a-b"
+NA,NA,NA,"pangkalan jati - rawamangun","JAK.35",1,"b-a"
+NA,NA,NA,"cilangkap - cililitan","JAK-36",0,"a-b"
+NA,NA,NA,"cililitan - cilangkap","JAK-36",1,"b-a"
+NA,NA,NA,"cililitan - condet via kayu manis","JAK-37",0,"a-b"
+NA,NA,NA,"condet - cililitan via kayu manis","JAK-37",1,"b-a"
+NA,NA,NA,"bulak ringin - kampung rambutan","JAK-38",0,"a-b"
+NA,NA,NA,"kampung rambutan - bulak ringin","JAK-38",1,"b-a"
+NA,NA,NA,"duren sawit - kalimalang","JAK-39",0,"a-b"
+NA,NA,NA,"kalimalang - duren sawit","JAK-39",1,"b-a"
+NA,NA,NA,"pulogebang - taman harapan baru","JAK-40",0,"a-b"
+NA,NA,NA,"taman harapan baru - pulogebang","JAK-40",1,"b-a"
+NA,NA,NA,"kampung melayu - pulo gadung","JAK.41",0,"a-b"
+NA,NA,NA,"pulo gadung - kampung melayu","JAK.41",1,"b-a"
+NA,NA,NA,"kampung melayu - pondok kelapa","JAK.42",0,"a-b"
+NA,NA,NA,"pondok kelapa - kampung melayu","JAK.42",1,"b-a"
+NA,NA,NA,"tongtek - cililitan","JAK.43",0,"a-b"
+NA,NA,NA,"cililitan - tongtek","JAK.43",1,"b-a"
+NA,NA,NA,"andara - lenteng agung","JAK-44",0,"a-b"
+NA,NA,NA,"lenteng agung - andara","JAK-44",1,"b-a"
+NA,NA,NA,"ragunan - lebak bulus","JAK-45",0,"a-b"
+NA,NA,NA,"lebak bulus - ragunan","JAK-45",1,"b-a"
+NA,NA,NA,"pasar minggu - jagakarsa","JAK.46",0,"a-b"
+NA,NA,NA,"jagakarsa - pasar minggu","JAK.46",1,"b-a"
+NA,NA,NA,"terminal pasar minggu - ciganjur","JAK-47",0,"a-b"
+NA,NA,NA,"ciganjur - terminal pasar minggu","JAK-47",1,"b-a"
+NA,NA,NA,"lebak bulus - cipulir","JAK.49",0,"a-b"
+NA,NA,NA,"cipulir - lebak bulus","JAK.49",1,"b-a"
+NA,NA,NA,"kalideres - puri kembangan","JAK-50",0,"a-b"
+NA,NA,NA,"puri kembangan - kalideres","JAK-50",1,"b-a"
+NA,NA,NA,"taman kota - budi luhur","JAK-51",0,"a-b"
+NA,NA,NA,"budi luhur - taman kota","JAK-51",1,"b-a"
+NA,NA,NA,"kalideres - muara angke","JAK.52",0,"a-b"
+NA,NA,NA,"muara angke - kalideres","JAK.52",1,"b-a"
+NA,NA,NA,"grogol - pos pengumben via slipi","JAK.53",0,"a-b"
+NA,NA,NA,"pos pengumben - grogol via slipi","JAK.53",1,"b-a"
+NA,NA,NA,"grogol - benhil","JAK.54",0,"a-b"
+NA,NA,NA,"benhil - grogol","JAK.54",1,"b-a"
+NA,NA,NA,"grogol - srengseng","JAK-56",0,"a-b"
+NA,NA,NA,"srengseng - grogol","JAK-56",1,"b-a"
+NA,NA,NA,"cilincing - rorotan","JAK-58",0,"a-b"
+NA,NA,NA,"rorotan - cilincing","JAK-58",1,"b-a"
+NA,NA,NA,"rawamangun - rawa sengon","JAK-59",0,"a-b"
+NA,NA,NA,"rawa sengon - rawamangun","JAK-59",1,"b-a"
+NA,NA,NA,"kelapa gading - sunter kemayoran","JAK-60",0,"a-b"
+NA,NA,NA,"sunter kemayoran - kelapa gading","JAK-60",1,"b-a"
+NA,NA,NA,"pulo gadung - cempaka putih","JAK-61",0,"a-b"
+NA,NA,NA,"cempaka putih - pulo gadung","JAK-61",1,"b-a"
+NA,NA,NA,"lenteng agung - aselih","JAK-64",0,"a-b"
+NA,NA,NA,"aselih - lenteng agung","JAK-64",1,"b-a"
+NA,NA,NA,"kampung rambutan - pinang ranti","JAK.71",0,"a-b"
+NA,NA,NA,"pinang ranti - kampung rambutan","JAK.71",1,"b-a"
+NA,NA,NA,"kampung rambutan - pasar rebo","JAK-72",0,"a-b"
+NA,NA,NA,"pasar rebo - kampung rambutan","JAK-72",1,"b-a"
+NA,NA,NA,"jambore cibubur - pasar rebo","JAK.73",0,"a-b"
+NA,NA,NA,"pasar rebo - jambore cibubur","JAK.73",1,"b-a"
+NA,NA,NA,"terminal rawamangun - cipinang muara","JAK.74",0,"a-b"
+NA,NA,NA,"cipinang muara - terminal rawamangun","JAK.74",1,"b-a"
+NA,NA,NA,"kampung pulo - halim via cililitan","JAK-75",0,"a-b"
+NA,NA,NA,"halim - kampung pulo via cililitan","JAK-75",1,"b-a"
+NA,NA,NA,"tanjung priok - jembatan hitam","JAK-77",0,"a-b"
+NA,NA,NA,"jembatan hitam - tanjung priok","JAK-77",1,"b-a"
+NA,NA,NA,"rawa buaya - rawa kompeni","JAK.80",0,"a-b"
+NA,NA,NA,"rawa kompeni - rawa buaya","JAK.80",1,"b-a"
+NA,NA,NA,"kampung melayu - kapin raya","JAK.84",0,"a-b"
+NA,NA,NA,"kapin raya - kampung melayu","JAK.84",1,"b-a"
+NA,NA,NA,"bintara - cipinang indah","JAK.85",0,"a-b"
+NA,NA,NA,"cipinang indah - bintara","JAK.85",1,"b-a"
+NA,NA,NA,"tanjung priok - ancol barat","JAK-88",0,"a-b"
+NA,NA,NA,"ancol barat - tanjung priok","JAK-88",1,"b-a"

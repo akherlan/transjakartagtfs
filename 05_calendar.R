@@ -4,13 +4,13 @@ library(tidyr)
 rm(list = ls())
 
 # read data
-sch_list <- readRDS("data/tj_schedule.rds")
+sc <- readRDS("data/tj_schedule.rds")
 
 # available weekly schedule, may various according to pull-data day
-cal <- sch_list %>%
-  select(name, direction, day, start_time) %>%
+cal <- sc %>%
+  select(route_id, direction_id, day, start_time) %>%
   mutate(day = tolower(day),
-         id = paste(name, direction, sep = "_"),
+         id = paste(route_id, direction_id, sep = "_"),
          start_time = ifelse(!is.na(start_time), 1, 0)) %>%
   pivot_wider(id_cols = "id",
               names_from = "day",
@@ -46,4 +46,4 @@ cal <- cal %>%
          end_date = "20211231") # PPKM level 3 until ????
 
 # save data
-write.csv(cal, "data/gtfs/calendar.txt", row.names = FALSE)
+write.csv(cal, "data/gtfs/calendar.txt", row.names = FALSE, na = "")

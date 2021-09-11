@@ -8,16 +8,17 @@ Description about files in this repository:
 
 -   **00_get.R** for getting Transjakarta routes and stops details
 -   **00_schedule.R** for getting current schedules
--   **01_agency.R**, **02_stops.R**, **03_routes.R**, **04_trips-shapes.R**, **05_stop_times.R**, **06_calendar.R** for creating GTFS formatted txt files
+-   **01\*.R - 06\*.R** for creating GTFS formatted txt files
 
 ### Todo
 
--   [ ] Add `trips.service_id` based on **calendar.txt** and data from Moovit
+-   [x] ~~Add `trips.service_id` based on **calendar.txt** and data from Moovit~~
 -   [ ] Create `stop_times.stop_sequence` with correct value (now, still replacement data)
--   [ ] Add `stop_times.arrival_time` and `stop_times.departure_time` from where?
+-   [ ] Add `stop_times.arrival_time` and `stop_times.departure_time` from ??? data
 -   [x] ~~Create one of **calendar.txt** or **calendar_dates.txt**~~
 -   [ ] Validate GTFS transit feeds
 -   [ ] Add a license??
+-   [ ] Fix same `trips.trip_id` (e.g. just a-b and b-a)
 -   [ ] Add **frequencies.txt** (optional, based on schedule data and **stop_times.txt**)
 
 ### Data Sources

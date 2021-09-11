@@ -1,5 +1,5 @@
 "agency_id","agency_name","agency_url","agency_timezone"
 "brt","Transjakarta","https://transjakarta.co.id","Asia/Jakarta"
-"tj-freebus","Bus Gratis TJ","https://transjakarta.co.id","Asia/Jakarta"
-"tj-jaklingko","Jak Lingko","https://www.jaklingkoindonesia.co.id/id","Asia/Jakarta"
-"tj-royaltrans","Royaltrans","https://transjakarta.co.id","Asia/Jakarta"
+"freebus","Bus Gratis TJ","https://transjakarta.co.id","Asia/Jakarta"
+"jaklingko","Jak Lingko","https://www.jaklingkoindonesia.co.id/id","Asia/Jakarta"
+"royaltrans","Royaltrans","https://transjakarta.co.id","Asia/Jakarta"
