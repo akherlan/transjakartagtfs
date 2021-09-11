@@ -24,8 +24,10 @@ stimes$stops <- map(stimes$stops, function(ls_stop) {
 
 stimes <- stimes %>%
   unnest(stops) %>%
-  mutate(stop_id = gsub("idjkb_", "", .$stopId)) %>%
-  select(trip_id, stop_id, stop_sequence)
+  mutate(stop_id = gsub("idjkb_", "", .$stopId),
+         arrival_time = NA,
+         departure_time = NA) %>%
+  select(trip_id, arrival_time, departure_time, stop_id, stop_sequence)
 
 # save data
 write.csv(stimes, "data/gtfs/stop_times.txt", row.names = FALSE, na = "")

@@ -4,6 +4,8 @@ library(purrr)
 library(stringr)
 library(googleway)
 library(sf)
+library(sfheaders)
+library(ggplot2)
 
 rm(list = ls())
 
@@ -67,10 +69,11 @@ cal <- sc %>%
          start_date = as.character(format(Sys.Date(), "%Y%m%d")),
          end_date = "20211231")
 
-# cal >< trips -->> new trips with service_id
-# tj data from Trafi is main
+# cal + trips -->> new trips with service_id
+# tj data from Trafi is primary
 trips <- trips %>%
-  left_join(cal %>% select(id_join, service_id), by = "id_join")
+  left_join(cal %>% select(id_join, service_id), by = "id_join") %>%
+  select(-id_join)
 
 # shapes -----
 # function
@@ -87,26 +90,51 @@ convert_shape <- function(x, y) {
 # shape_id, shape_pt_lat, shape_pt_lon, shape_pt_sequence,
 # shape_dist_traveled
 
+# decode polyline
 shapes <- trips %>%
-  mutate(shape_decode = map(shape, decode_pl)) # decode polyline
+  mutate(shape_decode = map(shape, decode_pl))
 
 # form geometry sf
-# shapes <- shapes %>%
-#   st_as_sf(coords = c("lon", "lat")) %>%
-#   group_by_at(vars(-geometry, -stops)) %>%
-#   summarise(do_union = FALSE, .groups = "drop") %>%
-#   st_cast("LINESTRING")
-
-shapes$shape_decode <- map(shapes$shape_decode, function(x) {
-  mutate(x, shape_pt_sequence = 1:n())
-})
-
 shapes <- shapes %>%
   unnest(shape_decode) %>%
+  st_as_sf(coords = c("lon", "lat")) %>%
+  group_by_at(vars(-geometry)) %>%
+  summarise(do_union = FALSE, .groups = "drop") %>%
+  st_cast("LINESTRING")
+
+# save route image
+sp <- ggplot(data = shapes) + geom_sf() + theme_void() +
+  theme(plot.background = element_rect(fill = "white", colour = "transparent"))
+
+ggsave("figs/routes.png", plot = sp, width = 1.5*700, height = 1.5*450,
+       units = "px", dpi = 150, device = "png")
+
+# sf to df
+sg <- sfc_to_df(shapes$geometry) %>%
+  group_by(linestring_id) %>%
+  mutate(shape_pt_sequence = 1:n())
+
+shapes <- shapes %>%
+  mutate(linestring_id = 1:n()) %>%
+  right_join(sg, by = "linestring_id") %>%
+  st_drop_geometry() %>%
   select(shape_id,
-         shape_pt_lat = lat,
-         shape_pt_lon = lon,
+         shape_pt_lat = y,
+         shape_pt_lon = x,
          shape_pt_sequence)
+
+# alterative to sf (direct point sequence)
+# the result was recently wrong in sf shape when import using tidytransit
+# shapes$shape_decode <- map(shapes$shape_decode, function(x) {
+#   mutate(x, shape_pt_sequence = 1:n())
+# })
+#
+# shapes <- shapes %>%
+#   unnest(shape_decode) %>%
+#   select(shape_id,
+#          shape_pt_lat = lat,
+#          shape_pt_lon = lon,
+#          shape_pt_sequence)
 
 # save data shapes
 write.csv(shapes, "data/gtfs/shapes.txt", row.names = FALSE, na = "")
